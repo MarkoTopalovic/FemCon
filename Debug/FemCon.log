@@ -1,0 +1,801 @@
+﻿  stdafx.cpp
+c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+  c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afx.h(33): note: see declaration of 'MBCS_Support_Deprecated_In_MFC'
+  UNVImp.cpp
+c:\femcon2017\femcon\unvimp.cpp(89): warning C4477: 'sscanf' : format string '%d' requires an argument of type 'int *', but variadic argument 4 has type 'bool *'
+c:\femcon2017\femcon\unvimp.cpp(89): warning C4477: 'sscanf' : format string '%d' requires an argument of type 'int *', but variadic argument 5 has type 'bool *'
+c:\femcon2017\femcon\unvimp.cpp(89): warning C4477: 'sscanf' : format string '%d' requires an argument of type 'int *', but variadic argument 6 has type 'bool *'
+c:\femcon2017\femcon\unvimp.cpp(89): warning C4477: 'sscanf' : format string '%d' requires an argument of type 'int *', but variadic argument 7 has type 'bool *'
+c:\femcon2017\femcon\unvimp.cpp(89): warning C4477: 'sscanf' : format string '%d' requires an argument of type 'int *', but variadic argument 8 has type 'bool *'
+c:\femcon2017\femcon\unvimp.cpp(89): warning C4477: 'sscanf' : format string '%d' requires an argument of type 'int *', but variadic argument 9 has type 'bool *'
+c:\femcon2017\femcon\unvimp.cpp(89): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\unvimp.cpp(105): warning C4473: 'sscanf' : not enough arguments passed for format string
+  c:\femcon2017\femcon\unvimp.cpp(105): note: placeholders and their parameters expect 4 variadic arguments, but 3 were provided
+  c:\femcon2017\femcon\unvimp.cpp(105): note: the missing variadic argument 4 is required by format string '%u'
+c:\femcon2017\femcon\unvimp.cpp(105): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\unvimp.cpp(124): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\unvimp.cpp(159): warning C4477: 'sscanf' : format string '%u' requires an argument of type 'unsigned int *', but variadic argument 7 has type 'bool *'
+c:\femcon2017\femcon\unvimp.cpp(159): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\unvimp.cpp(167): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\unvimp.cpp(174): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\unvimp.cpp(253): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+c:\femcon2017\femcon\unvimp.cpp(254): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+c:\femcon2017\femcon\unvimp.cpp(255): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+c:\femcon2017\femcon\unvimp.cpp(210): warning C4477: 'sscanf' : format string '%d' requires an argument of type 'int *', but variadic argument 3 has type 'bool *'
+c:\femcon2017\femcon\unvimp.cpp(210): warning C4477: 'sscanf' : format string '%d' requires an argument of type 'int *', but variadic argument 4 has type 'bool *'
+c:\femcon2017\femcon\unvimp.cpp(210): warning C4477: 'sscanf' : format string '%d' requires an argument of type 'int *', but variadic argument 5 has type 'bool *'
+c:\femcon2017\femcon\unvimp.cpp(210): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\unvimp.cpp(215): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\unvimp.cpp(219): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\unvimp.cpp(223): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\unvimp.cpp(227): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\unvimp.cpp(231): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\unvimp.cpp(235): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\unvimp.cpp(240): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\unvimp.cpp(245): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\unvimp.cpp(251): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\unvimp.cpp(268): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\unvimp.cpp(273): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\unvimp.cpp(279): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\unvimp.cpp(284): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\unvimp.cpp(291): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\unvimp.cpp(296): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\unvimp.cpp(311): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\unvimp.cpp(327): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\unvimp.cpp(358): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+  TranslateDlg.cpp
+  SendKeys.cpp
+c:\femcon2017\femcon\sendkeys.cpp(218): warning C4996: 'GetVersion': was declared deprecated
+  c:\program files (x86)\windows kits\8.1\include\um\sysinfoapi.h(110): note: see declaration of 'GetVersion'
+c:\femcon2017\femcon\sendkeys.cpp(440): warning C4996: '_tcsncpy': This function or variable may be unsafe. Consider using _tcsncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\tchar.h(1541): note: see declaration of '_tcsncpy'
+c:\femcon2017\femcon\sendkeys.cpp(615): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+c:\femcon2017\femcon\sendkeys.cpp(620): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+  SBeamOptions.cpp
+  PAKTOptions.cpp
+  PAKTExp.cpp
+c:\femcon2017\femcon\paktexp.h(5): warning C4005: 'CardH3': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(5): note: see previous definition of 'CardH3'
+c:\femcon2017\femcon\paktexp.h(6): warning C4005: 'CardV3': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(6): note: see previous definition of 'CardV3'
+c:\femcon2017\femcon\paktexp.h(7): warning C4005: 'CardH4': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(7): note: see previous definition of 'CardH4'
+c:\femcon2017\femcon\paktexp.h(8): warning C4005: 'CardV4': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(8): note: see previous definition of 'CardV4'
+c:\femcon2017\femcon\paktexp.h(9): warning C4005: 'CardH5': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(9): note: see previous definition of 'CardH5'
+c:\femcon2017\femcon\paktexp.h(10): warning C4005: 'CardV5': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(10): note: see previous definition of 'CardV5'
+c:\femcon2017\femcon\paktexp.h(11): warning C4005: 'CardH6': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(11): note: see previous definition of 'CardH6'
+c:\femcon2017\femcon\paktexp.h(16): warning C4005: 'CardH7': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(13): note: see previous definition of 'CardH7'
+c:\femcon2017\femcon\paktexp.h(17): warning C4005: 'CardV7': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(14): note: see previous definition of 'CardV7'
+c:\femcon2017\femcon\paktexp.h(20): warning C4005: 'CardH8': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(17): note: see previous definition of 'CardH8'
+c:\femcon2017\femcon\paktexp.h(21): warning C4005: 'CardV8': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(18): note: see previous definition of 'CardV8'
+c:\femcon2017\femcon\paktexp.h(22): warning C4005: 'CardH8_2': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(21): note: see previous definition of 'CardH8_2'
+c:\femcon2017\femcon\paktexp.h(30): warning C4005: 'CardH8_3': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(23): note: see previous definition of 'CardH8_3'
+c:\femcon2017\femcon\paktexp.h(39): warning C4005: 'CardH9': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(25): note: see previous definition of 'CardH9'
+c:\femcon2017\femcon\paktexp.h(40): warning C4005: 'CardV9': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(26): note: see previous definition of 'CardV9'
+c:\femcon2017\femcon\paktexp.h(41): warning C4005: 'CardH9_1': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(27): note: see previous definition of 'CardH9_1'
+c:\femcon2017\femcon\paktexp.h(42): warning C4005: 'CardV9_1': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(28): note: see previous definition of 'CardV9_1'
+c:\femcon2017\femcon\paktexp.h(57): warning C4005: 'CardH10': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(29): note: see previous definition of 'CardH10'
+c:\femcon2017\femcon\paktexp.h(58): warning C4005: 'CardV10': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(30): note: see previous definition of 'CardV10'
+c:\femcon2017\femcon\paktexp.h(66): warning C4005: 'CardH11': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(38): note: see previous definition of 'CardH11'
+c:\femcon2017\femcon\paktexp.h(67): warning C4005: 'CardV11': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(39): note: see previous definition of 'CardV11'
+c:\femcon2017\femcon\paktexp.h(70): warning C4005: 'CardH12': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(42): note: see previous definition of 'CardH12'
+c:\femcon2017\femcon\paktexp.h(71): warning C4005: 'CardV12': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(43): note: see previous definition of 'CardV12'
+c:\femcon2017\femcon\paktexp.h(73): warning C4005: 'CardH12_1': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(45): note: see previous definition of 'CardH12_1'
+c:\femcon2017\femcon\paktexp.h(79): warning C4005: 'CardH12_2': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(52): note: see previous definition of 'CardH12_2'
+c:\femcon2017\femcon\paktexp.h(97): warning C4005: 'CardH12_5': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(60): note: see previous definition of 'CardH12_5'
+c:\femcon2017\femcon\paktexp.h(107): warning C4005: 'CardH12_6': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(68): note: see previous definition of 'CardH12_6'
+c:\femcon2017\femcon\paktexp.h(110): warning C4005: 'CardH13_2': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(112): note: see previous definition of 'CardH13_2'
+c:\femcon2017\femcon\paktexp.h(114): warning C4005: 'CardH13_3': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(134): note: see previous definition of 'CardH13_3'
+c:\femcon2017\femcon\paktexp.h(131): warning C4005: 'NULAZ': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(222): note: see previous definition of 'NULAZ'
+c:\femcon2017\femcon\paktexp.h(138): warning C4005: 'MAXIT': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(258): note: see previous definition of 'MAXIT'
+c:\femcon2017\femcon\paktexp.h(143): warning C4005: 'IREST': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(246): note: see previous definition of 'IREST'
+c:\femcon2017\femcon\paktexp.cpp(52): warning C4244: '=': conversion from 'ULONGLONG' to 'long', possible loss of data
+c:\femcon2017\femcon\paktexp.cpp(75): warning C4018: '<=': signed/unsigned mismatch
+c:\femcon2017\femcon\paktexp.cpp(83): warning C4018: '<=': signed/unsigned mismatch
+c:\femcon2017\femcon\paktexp.cpp(764): warning C4101: 'CONfuncs': unreferenced local variable
+c:\femcon2017\femcon\paktexp.cpp(764): warning C4101: 'TCfuncs': unreferenced local variable
+c:\femcon2017\femcon\paktexp.cpp(1237): warning C4018: '<': signed/unsigned mismatch
+c:\femcon2017\femcon\paktexp.cpp(1258): warning C4018: '<': signed/unsigned mismatch
+c:\femcon2017\femcon\paktexp.cpp(1279): warning C4018: '<': signed/unsigned mismatch
+c:\femcon2017\femcon\paktexp.cpp(1300): warning C4018: '<': signed/unsigned mismatch
+c:\femcon2017\femcon\paktexp.cpp(1321): warning C4018: '<': signed/unsigned mismatch
+c:\femcon2017\femcon\paktexp.cpp(1115): warning C4101: 'uIHP': unreferenced local variable
+c:\femcon2017\femcon\paktexp.cpp(1115): warning C4101: 'uIFL': unreferenced local variable
+  PAKString.cpp
+c:\femcon2017\femcon\pakstring.cpp(58): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+c:\femcon2017\femcon\pakstring.cpp(330): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1465): note: see declaration of 'vsprintf'
+c:\femcon2017\femcon\pakstring.cpp(364): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+  PAKPTExp.cpp
+c:\femcon2017\femcon\pakpexp.h(5): warning C4005: 'CardH3': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(5): note: see previous definition of 'CardH3'
+c:\femcon2017\femcon\pakpexp.h(6): warning C4005: 'CardV3': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(6): note: see previous definition of 'CardV3'
+c:\femcon2017\femcon\pakpexp.h(7): warning C4005: 'CardH4': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(7): note: see previous definition of 'CardH4'
+c:\femcon2017\femcon\pakpexp.h(8): warning C4005: 'CardV4': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(8): note: see previous definition of 'CardV4'
+c:\femcon2017\femcon\pakpexp.h(9): warning C4005: 'CardH5': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(9): note: see previous definition of 'CardH5'
+c:\femcon2017\femcon\pakpexp.h(10): warning C4005: 'CardV5': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(10): note: see previous definition of 'CardV5'
+c:\femcon2017\femcon\pakpexp.h(11): warning C4005: 'CardH6': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(11): note: see previous definition of 'CardH6'
+c:\femcon2017\femcon\pakpexp.h(12): warning C4005: 'CardV6': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(12): note: see previous definition of 'CardV6'
+c:\femcon2017\femcon\pakpexp.h(13): warning C4005: 'CardH7': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(13): note: see previous definition of 'CardH7'
+c:\femcon2017\femcon\pakpexp.h(14): warning C4005: 'CardV7': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(14): note: see previous definition of 'CardV7'
+c:\femcon2017\femcon\pakpexp.h(17): warning C4005: 'CardH8': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(17): note: see previous definition of 'CardH8'
+c:\femcon2017\femcon\pakpexp.h(18): warning C4005: 'CardV8': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(18): note: see previous definition of 'CardV8'
+c:\femcon2017\femcon\pakpexp.h(19): warning C4005: 'CardH8_2': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(21): note: see previous definition of 'CardH8_2'
+c:\femcon2017\femcon\pakpexp.h(27): warning C4005: 'CardH8_3': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(23): note: see previous definition of 'CardH8_3'
+c:\femcon2017\femcon\pakpexp.h(36): warning C4005: 'CardH9': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(25): note: see previous definition of 'CardH9'
+c:\femcon2017\femcon\pakpexp.h(52): warning C4005: 'CardH11': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(38): note: see previous definition of 'CardH11'
+c:\femcon2017\femcon\pakpexp.h(53): warning C4005: 'CardV11': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(39): note: see previous definition of 'CardV11'
+c:\femcon2017\femcon\pakpexp.h(66): warning C4005: 'CardH12': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(42): note: see previous definition of 'CardH12'
+c:\femcon2017\femcon\pakpexp.h(67): warning C4005: 'CardV12': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(43): note: see previous definition of 'CardV12'
+c:\femcon2017\femcon\pakpexp.h(68): warning C4005: 'CardH12_1': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(45): note: see previous definition of 'CardH12_1'
+c:\femcon2017\femcon\pakpexp.h(78): warning C4005: 'CardH13': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(105): note: see previous definition of 'CardH13'
+c:\femcon2017\femcon\pakpexp.h(79): warning C4005: 'CardV13': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(106): note: see previous definition of 'CardV13'
+c:\femcon2017\femcon\pakpexp.h(80): warning C4005: 'CardH13_1': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(107): note: see previous definition of 'CardH13_1'
+c:\femcon2017\femcon\pakpexp.h(90): warning C4005: 'CardV14_1_a_1': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(177): note: see previous definition of 'CardV14_1_a_1'
+c:\femcon2017\femcon\pakpexp.h(92): warning C4005: 'CardV14_1_b_1': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(179): note: see previous definition of 'CardV14_1_b_1'
+c:\femcon2017\femcon\pakpexp.h(96): warning C4005: 'CardH15': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(182): note: see previous definition of 'CardH15'
+c:\femcon2017\femcon\pakpexp.h(97): warning C4005: 'CardV15': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(183): note: see previous definition of 'CardV15'
+c:\femcon2017\femcon\pakpexp.h(113): warning C4005: 'MAXIT': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(258): note: see previous definition of 'MAXIT'
+c:\femcon2017\femcon\pakptexp.cpp(61): warning C4244: '=': conversion from 'ULONGLONG' to 'long', possible loss of data
+  PAKPExp.cpp
+c:\femcon2017\femcon\pakpexp.h(5): warning C4005: 'CardH3': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(5): note: see previous definition of 'CardH3'
+c:\femcon2017\femcon\pakpexp.h(6): warning C4005: 'CardV3': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(6): note: see previous definition of 'CardV3'
+c:\femcon2017\femcon\pakpexp.h(7): warning C4005: 'CardH4': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(7): note: see previous definition of 'CardH4'
+c:\femcon2017\femcon\pakpexp.h(8): warning C4005: 'CardV4': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(8): note: see previous definition of 'CardV4'
+c:\femcon2017\femcon\pakpexp.h(9): warning C4005: 'CardH5': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(9): note: see previous definition of 'CardH5'
+c:\femcon2017\femcon\pakpexp.h(10): warning C4005: 'CardV5': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(10): note: see previous definition of 'CardV5'
+c:\femcon2017\femcon\pakpexp.h(11): warning C4005: 'CardH6': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(11): note: see previous definition of 'CardH6'
+c:\femcon2017\femcon\pakpexp.h(12): warning C4005: 'CardV6': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(12): note: see previous definition of 'CardV6'
+c:\femcon2017\femcon\pakpexp.h(13): warning C4005: 'CardH7': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(13): note: see previous definition of 'CardH7'
+c:\femcon2017\femcon\pakpexp.h(14): warning C4005: 'CardV7': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(14): note: see previous definition of 'CardV7'
+c:\femcon2017\femcon\pakpexp.h(17): warning C4005: 'CardH8': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(17): note: see previous definition of 'CardH8'
+c:\femcon2017\femcon\pakpexp.h(18): warning C4005: 'CardV8': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(18): note: see previous definition of 'CardV8'
+c:\femcon2017\femcon\pakpexp.h(19): warning C4005: 'CardH8_2': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(21): note: see previous definition of 'CardH8_2'
+c:\femcon2017\femcon\pakpexp.h(27): warning C4005: 'CardH8_3': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(23): note: see previous definition of 'CardH8_3'
+c:\femcon2017\femcon\pakpexp.h(36): warning C4005: 'CardH9': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(25): note: see previous definition of 'CardH9'
+c:\femcon2017\femcon\pakpexp.h(52): warning C4005: 'CardH11': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(38): note: see previous definition of 'CardH11'
+c:\femcon2017\femcon\pakpexp.h(53): warning C4005: 'CardV11': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(39): note: see previous definition of 'CardV11'
+c:\femcon2017\femcon\pakpexp.h(66): warning C4005: 'CardH12': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(42): note: see previous definition of 'CardH12'
+c:\femcon2017\femcon\pakpexp.h(67): warning C4005: 'CardV12': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(43): note: see previous definition of 'CardV12'
+c:\femcon2017\femcon\pakpexp.h(68): warning C4005: 'CardH12_1': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(45): note: see previous definition of 'CardH12_1'
+c:\femcon2017\femcon\pakpexp.h(78): warning C4005: 'CardH13': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(105): note: see previous definition of 'CardH13'
+c:\femcon2017\femcon\pakpexp.h(79): warning C4005: 'CardV13': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(106): note: see previous definition of 'CardV13'
+c:\femcon2017\femcon\pakpexp.h(80): warning C4005: 'CardH13_1': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(107): note: see previous definition of 'CardH13_1'
+c:\femcon2017\femcon\pakpexp.h(90): warning C4005: 'CardV14_1_a_1': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(177): note: see previous definition of 'CardV14_1_a_1'
+c:\femcon2017\femcon\pakpexp.h(92): warning C4005: 'CardV14_1_b_1': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(179): note: see previous definition of 'CardV14_1_b_1'
+c:\femcon2017\femcon\pakpexp.h(96): warning C4005: 'CardH15': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(182): note: see previous definition of 'CardH15'
+c:\femcon2017\femcon\pakpexp.h(97): warning C4005: 'CardV15': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(183): note: see previous definition of 'CardV15'
+c:\femcon2017\femcon\pakpexp.h(113): warning C4005: 'MAXIT': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(258): note: see previous definition of 'MAXIT'
+c:\femcon2017\femcon\pakpexp.cpp(64): warning C4244: '=': conversion from 'ULONGLONG' to 'long', possible loss of data
+c:\femcon2017\femcon\pakpexp.cpp(249): warning C4101: 'uNETIP': unreferenced local variable
+c:\femcon2017\femcon\pakpexp.cpp(249): warning C4101: 'uINDAX': unreferenced local variable
+c:\femcon2017\femcon\pakpexp.cpp(1120): warning C4244: '=': conversion from 'ULONGLONG' to 'long', possible loss of data
+  PakOptValues.cpp
+c:\femcon2017\femcon\pakoptvalues.cpp(38): warning C4800: 'BOOL': forcing value to bool 'true' or 'false' (performance warning)
+c:\femcon2017\femcon\pakoptvalues.cpp(43): warning C4800: 'BOOL': forcing value to bool 'true' or 'false' (performance warning)
+  PAKMExp.cpp
+c:\femcon2017\femcon\pakmexp.h(5): warning C4005: 'CardH3': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(5): note: see previous definition of 'CardH3'
+c:\femcon2017\femcon\pakmexp.h(6): warning C4005: 'CardV3': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(6): note: see previous definition of 'CardV3'
+c:\femcon2017\femcon\pakmexp.h(7): warning C4005: 'CardH4': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(7): note: see previous definition of 'CardH4'
+c:\femcon2017\femcon\pakmexp.h(8): warning C4005: 'CardV4': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(8): note: see previous definition of 'CardV4'
+c:\femcon2017\femcon\pakmexp.h(9): warning C4005: 'CardH5': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(9): note: see previous definition of 'CardH5'
+c:\femcon2017\femcon\pakmexp.h(10): warning C4005: 'CardV5': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(10): note: see previous definition of 'CardV5'
+c:\femcon2017\femcon\pakmexp.h(11): warning C4005: 'CardH6': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(11): note: see previous definition of 'CardH6'
+c:\femcon2017\femcon\pakmexp.h(16): warning C4005: 'CardH7': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(13): note: see previous definition of 'CardH7'
+c:\femcon2017\femcon\pakmexp.h(17): warning C4005: 'CardV7': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(14): note: see previous definition of 'CardV7'
+c:\femcon2017\femcon\pakmexp.h(20): warning C4005: 'CardH8': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(17): note: see previous definition of 'CardH8'
+c:\femcon2017\femcon\pakmexp.h(21): warning C4005: 'CardV8': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(18): note: see previous definition of 'CardV8'
+c:\femcon2017\femcon\pakmexp.h(22): warning C4005: 'CardH8_2': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(21): note: see previous definition of 'CardH8_2'
+c:\femcon2017\femcon\pakmexp.h(30): warning C4005: 'CardH8_3': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(23): note: see previous definition of 'CardH8_3'
+c:\femcon2017\femcon\pakmexp.h(39): warning C4005: 'CardH9': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(25): note: see previous definition of 'CardH9'
+c:\femcon2017\femcon\pakmexp.h(40): warning C4005: 'CardV9': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(26): note: see previous definition of 'CardV9'
+c:\femcon2017\femcon\pakmexp.h(41): warning C4005: 'CardH9_1': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(27): note: see previous definition of 'CardH9_1'
+c:\femcon2017\femcon\pakmexp.h(42): warning C4005: 'CardV9_1': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(28): note: see previous definition of 'CardV9_1'
+c:\femcon2017\femcon\pakmexp.h(57): warning C4005: 'CardH10': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(29): note: see previous definition of 'CardH10'
+c:\femcon2017\femcon\pakmexp.h(58): warning C4005: 'CardV10': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(30): note: see previous definition of 'CardV10'
+c:\femcon2017\femcon\pakmexp.h(66): warning C4005: 'CardH11': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(38): note: see previous definition of 'CardH11'
+c:\femcon2017\femcon\pakmexp.h(67): warning C4005: 'CardV11': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(39): note: see previous definition of 'CardV11'
+c:\femcon2017\femcon\pakmexp.h(70): warning C4005: 'CardH12': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(42): note: see previous definition of 'CardH12'
+c:\femcon2017\femcon\pakmexp.h(71): warning C4005: 'CardV12': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(43): note: see previous definition of 'CardV12'
+c:\femcon2017\femcon\pakmexp.h(73): warning C4005: 'CardH12_1': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(45): note: see previous definition of 'CardH12_1'
+c:\femcon2017\femcon\pakmexp.h(79): warning C4005: 'CardH12_2': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(52): note: see previous definition of 'CardH12_2'
+c:\femcon2017\femcon\pakmexp.h(97): warning C4005: 'CardH12_5': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(60): note: see previous definition of 'CardH12_5'
+c:\femcon2017\femcon\pakmexp.h(107): warning C4005: 'CardH12_6': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(68): note: see previous definition of 'CardH12_6'
+c:\femcon2017\femcon\pakmexp.h(110): warning C4005: 'CardH13_2': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(112): note: see previous definition of 'CardH13_2'
+c:\femcon2017\femcon\pakmexp.h(114): warning C4005: 'CardH13_3': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(134): note: see previous definition of 'CardH13_3'
+c:\femcon2017\femcon\pakmexp.h(131): warning C4005: 'NULAZ': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(222): note: see previous definition of 'NULAZ'
+c:\femcon2017\femcon\pakmexp.h(138): warning C4005: 'MAXIT': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(258): note: see previous definition of 'MAXIT'
+c:\femcon2017\femcon\pakmexp.h(143): warning C4005: 'IREST': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(246): note: see previous definition of 'IREST'
+c:\femcon2017\femcon\pakmexp.cpp(52): warning C4244: '=': conversion from 'ULONGLONG' to 'long', possible loss of data
+c:\femcon2017\femcon\pakmexp.cpp(75): warning C4018: '<=': signed/unsigned mismatch
+c:\femcon2017\femcon\pakmexp.cpp(83): warning C4018: '<=': signed/unsigned mismatch
+c:\femcon2017\femcon\pakmexp.cpp(764): warning C4101: 'CONfuncs': unreferenced local variable
+c:\femcon2017\femcon\pakmexp.cpp(764): warning C4101: 'TCfuncs': unreferenced local variable
+c:\femcon2017\femcon\pakmexp.cpp(1237): warning C4018: '<': signed/unsigned mismatch
+c:\femcon2017\femcon\pakmexp.cpp(1258): warning C4018: '<': signed/unsigned mismatch
+c:\femcon2017\femcon\pakmexp.cpp(1279): warning C4018: '<': signed/unsigned mismatch
+c:\femcon2017\femcon\pakmexp.cpp(1300): warning C4018: '<': signed/unsigned mismatch
+c:\femcon2017\femcon\pakmexp.cpp(1321): warning C4018: '<': signed/unsigned mismatch
+c:\femcon2017\femcon\pakmexp.cpp(1115): warning C4101: 'uIHP': unreferenced local variable
+c:\femcon2017\femcon\pakmexp.cpp(1115): warning C4101: 'uIFL': unreferenced local variable
+  PAKFOptions.cpp
+  PAKFExp.cpp
+c:\femcon2017\femcon\pakfexp.h(92): warning C4005: 'MAXIT': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(258): note: see previous definition of 'MAXIT'
+c:\femcon2017\femcon\pakfexp.h(98): warning C4005: 'IREST': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(246): note: see previous definition of 'IREST'
+c:\femcon2017\femcon\pakfexp.cpp(54): warning C4244: '=': conversion from 'ULONGLONG' to 'long', possible loss of data
+c:\femcon2017\femcon\pakfexp.cpp(169): warning C4018: '<': signed/unsigned mismatch
+c:\femcon2017\femcon\pakfexp.cpp(232): warning C4018: '<': signed/unsigned mismatch
+c:\femcon2017\femcon\pakfexp.cpp(325): warning C4018: '<': signed/unsigned mismatch
+c:\femcon2017\femcon\pakfexp.cpp(341): warning C4018: '<': signed/unsigned mismatch
+c:\femcon2017\femcon\pakfexp.cpp(391): warning C4018: '<': signed/unsigned mismatch
+  PakExpOpt.cpp
+  PAKExp.cpp
+c:\femcon2017\femcon\pakexp.cpp(62): warning C4244: '=': conversion from 'ULONGLONG' to 'long', possible loss of data
+c:\femcon2017\femcon\pakexp.cpp(228): warning C4101: 'matType': unreferenced local variable
+c:\femcon2017\femcon\pakexp.cpp(228): warning C4101: 'elType': unreferenced local variable
+c:\femcon2017\femcon\pakexp.cpp(228): warning C4101: 'matID': unreferenced local variable
+c:\femcon2017\femcon\pakexp.cpp(284): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\femcon2017\femcon\pakexp.cpp(285): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\femcon2017\femcon\pakexp.cpp(407): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\femcon2017\femcon\pakexp.cpp(408): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\femcon2017\femcon\pakexp.cpp(525): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\femcon2017\femcon\pakexp.cpp(526): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\femcon2017\femcon\pakexp.cpp(876): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\femcon2017\femcon\pakexp.cpp(877): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\femcon2017\femcon\pakexp.cpp(988): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\femcon2017\femcon\pakexp.cpp(989): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\femcon2017\femcon\pakexp.cpp(1159): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\femcon2017\femcon\pakexp.cpp(1160): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\femcon2017\femcon\pakexp.cpp(1290): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\femcon2017\femcon\pakexp.cpp(1291): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\femcon2017\femcon\pakexp.cpp(1421): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\femcon2017\femcon\pakexp.cpp(1422): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\femcon2017\femcon\pakexp.cpp(1551): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\femcon2017\femcon\pakexp.cpp(1552): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\femcon2017\femcon\pakexp.cpp(1662): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\femcon2017\femcon\pakexp.cpp(1663): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\femcon2017\femcon\pakexp.cpp(1788): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\femcon2017\femcon\pakexp.cpp(1789): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\femcon2017\femcon\pakexp.cpp(296): warning C4101: 'uMODEL1': unreferenced local variable
+c:\femcon2017\femcon\pakexp.cpp(1049): warning C4101: 'uMat': unreferenced local variable
+c:\femcon2017\femcon\pakexp.cpp(2636): warning C4101: 'ima': unreferenced local variable
+  PAKEExp.cpp
+c:\femcon2017\femcon\pakeexp.h(5): warning C4005: 'CardH3': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(5): note: see previous definition of 'CardH3'
+c:\femcon2017\femcon\pakeexp.h(6): warning C4005: 'CardV3': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(6): note: see previous definition of 'CardV3'
+c:\femcon2017\femcon\pakeexp.h(7): warning C4005: 'CardH4': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(7): note: see previous definition of 'CardH4'
+c:\femcon2017\femcon\pakeexp.h(8): warning C4005: 'CardV4': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(8): note: see previous definition of 'CardV4'
+c:\femcon2017\femcon\pakeexp.h(9): warning C4005: 'CardH5': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(9): note: see previous definition of 'CardH5'
+c:\femcon2017\femcon\pakeexp.h(10): warning C4005: 'CardV5': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(10): note: see previous definition of 'CardV5'
+c:\femcon2017\femcon\pakeexp.h(11): warning C4005: 'CardH6': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(11): note: see previous definition of 'CardH6'
+c:\femcon2017\femcon\pakeexp.h(16): warning C4005: 'CardH7': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(13): note: see previous definition of 'CardH7'
+c:\femcon2017\femcon\pakeexp.h(17): warning C4005: 'CardV7': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(14): note: see previous definition of 'CardV7'
+c:\femcon2017\femcon\pakeexp.h(20): warning C4005: 'CardH8': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(17): note: see previous definition of 'CardH8'
+c:\femcon2017\femcon\pakeexp.h(21): warning C4005: 'CardV8': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(18): note: see previous definition of 'CardV8'
+c:\femcon2017\femcon\pakeexp.h(22): warning C4005: 'CardH8_2': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(21): note: see previous definition of 'CardH8_2'
+c:\femcon2017\femcon\pakeexp.h(30): warning C4005: 'CardH8_3': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(23): note: see previous definition of 'CardH8_3'
+c:\femcon2017\femcon\pakeexp.h(39): warning C4005: 'CardH9': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(25): note: see previous definition of 'CardH9'
+c:\femcon2017\femcon\pakeexp.h(40): warning C4005: 'CardV9': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(26): note: see previous definition of 'CardV9'
+c:\femcon2017\femcon\pakeexp.h(41): warning C4005: 'CardH9_1': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(27): note: see previous definition of 'CardH9_1'
+c:\femcon2017\femcon\pakeexp.h(42): warning C4005: 'CardV9_1': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(28): note: see previous definition of 'CardV9_1'
+c:\femcon2017\femcon\pakeexp.h(57): warning C4005: 'CardH10': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(29): note: see previous definition of 'CardH10'
+c:\femcon2017\femcon\pakeexp.h(58): warning C4005: 'CardV10': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(30): note: see previous definition of 'CardV10'
+c:\femcon2017\femcon\pakeexp.h(66): warning C4005: 'CardH11': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(38): note: see previous definition of 'CardH11'
+c:\femcon2017\femcon\pakeexp.h(67): warning C4005: 'CardV11': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(39): note: see previous definition of 'CardV11'
+c:\femcon2017\femcon\pakeexp.h(70): warning C4005: 'CardH12': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(42): note: see previous definition of 'CardH12'
+c:\femcon2017\femcon\pakeexp.h(71): warning C4005: 'CardV12': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(43): note: see previous definition of 'CardV12'
+c:\femcon2017\femcon\pakeexp.h(73): warning C4005: 'CardH12_1': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(45): note: see previous definition of 'CardH12_1'
+c:\femcon2017\femcon\pakeexp.h(79): warning C4005: 'CardH12_2': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(52): note: see previous definition of 'CardH12_2'
+c:\femcon2017\femcon\pakeexp.h(97): warning C4005: 'CardH12_5': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(60): note: see previous definition of 'CardH12_5'
+c:\femcon2017\femcon\pakeexp.h(107): warning C4005: 'CardH12_6': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(68): note: see previous definition of 'CardH12_6'
+c:\femcon2017\femcon\pakeexp.h(110): warning C4005: 'CardH13_2': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(112): note: see previous definition of 'CardH13_2'
+c:\femcon2017\femcon\pakeexp.h(114): warning C4005: 'CardH13_3': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(134): note: see previous definition of 'CardH13_3'
+c:\femcon2017\femcon\pakeexp.h(131): warning C4005: 'NULAZ': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(222): note: see previous definition of 'NULAZ'
+c:\femcon2017\femcon\pakeexp.h(138): warning C4005: 'MAXIT': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(258): note: see previous definition of 'MAXIT'
+c:\femcon2017\femcon\pakeexp.h(143): warning C4005: 'IREST': macro redefinition
+  c:\femcon2017\femcon\pakexp.h(246): note: see previous definition of 'IREST'
+c:\femcon2017\femcon\pakeexp.cpp(52): warning C4244: '=': conversion from 'ULONGLONG' to 'long', possible loss of data
+c:\femcon2017\femcon\pakeexp.cpp(75): warning C4018: '<=': signed/unsigned mismatch
+c:\femcon2017\femcon\pakeexp.cpp(83): warning C4018: '<=': signed/unsigned mismatch
+c:\femcon2017\femcon\pakeexp.cpp(764): warning C4101: 'CONfuncs': unreferenced local variable
+c:\femcon2017\femcon\pakeexp.cpp(764): warning C4101: 'TCfuncs': unreferenced local variable
+c:\femcon2017\femcon\pakeexp.cpp(767): warning C4101: 'ima': unreferenced local variable
+c:\femcon2017\femcon\pakeexp.cpp(1230): warning C4018: '<': signed/unsigned mismatch
+c:\femcon2017\femcon\pakeexp.cpp(1251): warning C4018: '<': signed/unsigned mismatch
+c:\femcon2017\femcon\pakeexp.cpp(1272): warning C4018: '<': signed/unsigned mismatch
+c:\femcon2017\femcon\pakeexp.cpp(1293): warning C4018: '<': signed/unsigned mismatch
+c:\femcon2017\femcon\pakeexp.cpp(1314): warning C4018: '<': signed/unsigned mismatch
+c:\femcon2017\femcon\pakeexp.cpp(1115): warning C4101: 'uIHP': unreferenced local variable
+c:\femcon2017\femcon\pakeexp.cpp(1115): warning C4101: 'uIFL': unreferenced local variable
+  ModelData.cpp
+c:\femcon2017\femcon\modeldata.cpp(536): warning C4477: 'sscanf' : format string '%u' requires an argument of type 'unsigned int *', but variadic argument 1 has type 'UINT'
+c:\femcon2017\femcon\modeldata.cpp(536): warning C4477: 'sscanf' : format string '%u' requires an argument of type 'unsigned int *', but variadic argument 2 has type 'UINT'
+c:\femcon2017\femcon\modeldata.cpp(536): warning C4477: 'sscanf' : format string '%u' requires an argument of type 'unsigned int *', but variadic argument 3 has type 'UINT'
+c:\femcon2017\femcon\modeldata.cpp(536): warning C4477: 'sscanf' : format string '%u' requires an argument of type 'unsigned int *', but variadic argument 4 has type 'UINT'
+c:\femcon2017\femcon\modeldata.cpp(536): warning C4477: 'sscanf' : format string '%u' requires an argument of type 'unsigned int *', but variadic argument 5 has type 'UINT'
+c:\femcon2017\femcon\modeldata.cpp(536): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(719): warning C4477: 'sscanf' : format string '%d' requires an argument of type 'int *', but variadic argument 4 has type 'bool *'
+c:\femcon2017\femcon\modeldata.cpp(719): warning C4477: 'sscanf' : format string '%d' requires an argument of type 'int *', but variadic argument 5 has type 'bool *'
+c:\femcon2017\femcon\modeldata.cpp(719): warning C4477: 'sscanf' : format string '%d' requires an argument of type 'int *', but variadic argument 6 has type 'bool *'
+c:\femcon2017\femcon\modeldata.cpp(719): warning C4477: 'sscanf' : format string '%d' requires an argument of type 'int *', but variadic argument 7 has type 'bool *'
+c:\femcon2017\femcon\modeldata.cpp(719): warning C4477: 'sscanf' : format string '%d' requires an argument of type 'int *', but variadic argument 8 has type 'bool *'
+c:\femcon2017\femcon\modeldata.cpp(719): warning C4477: 'sscanf' : format string '%d' requires an argument of type 'int *', but variadic argument 9 has type 'bool *'
+c:\femcon2017\femcon\modeldata.cpp(719): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(735): warning C4473: 'sscanf' : not enough arguments passed for format string
+  c:\femcon2017\femcon\modeldata.cpp(735): note: placeholders and their parameters expect 4 variadic arguments, but 3 were provided
+  c:\femcon2017\femcon\modeldata.cpp(735): note: the missing variadic argument 4 is required by format string '%u'
+c:\femcon2017\femcon\modeldata.cpp(735): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(743): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(781): warning C4477: 'sscanf' : format string '%d' requires an argument of type 'int *', but variadic argument 4 has type 'bool *'
+c:\femcon2017\femcon\modeldata.cpp(781): warning C4477: 'sscanf' : format string '%d' requires an argument of type 'int *', but variadic argument 5 has type 'bool *'
+c:\femcon2017\femcon\modeldata.cpp(781): warning C4477: 'sscanf' : format string '%d' requires an argument of type 'int *', but variadic argument 6 has type 'bool *'
+c:\femcon2017\femcon\modeldata.cpp(781): warning C4477: 'sscanf' : format string '%d' requires an argument of type 'int *', but variadic argument 7 has type 'bool *'
+c:\femcon2017\femcon\modeldata.cpp(781): warning C4477: 'sscanf' : format string '%d' requires an argument of type 'int *', but variadic argument 8 has type 'bool *'
+c:\femcon2017\femcon\modeldata.cpp(781): warning C4477: 'sscanf' : format string '%d' requires an argument of type 'int *', but variadic argument 9 has type 'bool *'
+c:\femcon2017\femcon\modeldata.cpp(781): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(815): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(833): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(870): warning C4477: 'sscanf' : format string '%d' requires an argument of type 'int *', but variadic argument 8 has type 'bool *'
+c:\femcon2017\femcon\modeldata.cpp(870): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(878): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(885): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(892): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(897): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(902): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(950): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+c:\femcon2017\femcon\modeldata.cpp(951): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+c:\femcon2017\femcon\modeldata.cpp(952): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+c:\femcon2017\femcon\modeldata.cpp(981): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+c:\femcon2017\femcon\modeldata.cpp(988): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+c:\femcon2017\femcon\modeldata.cpp(989): warning C4554: '&': check operator precedence for possible error; use parentheses to clarify precedence
+c:\femcon2017\femcon\modeldata.cpp(994): warning C4554: '&': check operator precedence for possible error; use parentheses to clarify precedence
+c:\femcon2017\femcon\modeldata.cpp(998): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+c:\femcon2017\femcon\modeldata.cpp(930): warning C4477: 'sscanf' : format string '%d' requires an argument of type 'int *', but variadic argument 3 has type 'bool *'
+c:\femcon2017\femcon\modeldata.cpp(930): warning C4477: 'sscanf' : format string '%d' requires an argument of type 'int *', but variadic argument 4 has type 'bool *'
+c:\femcon2017\femcon\modeldata.cpp(930): warning C4477: 'sscanf' : format string '%d' requires an argument of type 'int *', but variadic argument 5 has type 'bool *'
+c:\femcon2017\femcon\modeldata.cpp(930): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(932): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(934): warning C4474: 'sscanf' : too many arguments passed for format string
+  c:\femcon2017\femcon\modeldata.cpp(934): note: placeholders and their parameters expect 5 variadic arguments, but 6 were provided
+c:\femcon2017\femcon\modeldata.cpp(934): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(936): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(938): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(940): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(942): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(944): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(946): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(949): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(965): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(970): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(976): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(980): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(987): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(1025): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(1027): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(1031): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(1034): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(1037): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(1039): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(1048): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(1056): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(1132): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+c:\femcon2017\femcon\modeldata.cpp(1133): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+c:\femcon2017\femcon\modeldata.cpp(1134): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+c:\femcon2017\femcon\modeldata.cpp(1163): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+c:\femcon2017\femcon\modeldata.cpp(1170): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+c:\femcon2017\femcon\modeldata.cpp(1171): warning C4554: '&': check operator precedence for possible error; use parentheses to clarify precedence
+c:\femcon2017\femcon\modeldata.cpp(1176): warning C4554: '&': check operator precedence for possible error; use parentheses to clarify precedence
+c:\femcon2017\femcon\modeldata.cpp(1180): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+c:\femcon2017\femcon\modeldata.cpp(1089): warning C4477: 'sscanf' : format string '%d' requires an argument of type 'int *', but variadic argument 3 has type 'bool *'
+c:\femcon2017\femcon\modeldata.cpp(1089): warning C4477: 'sscanf' : format string '%d' requires an argument of type 'int *', but variadic argument 4 has type 'bool *'
+c:\femcon2017\femcon\modeldata.cpp(1089): warning C4477: 'sscanf' : format string '%d' requires an argument of type 'int *', but variadic argument 5 has type 'bool *'
+c:\femcon2017\femcon\modeldata.cpp(1089): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(1094): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(1098): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(1102): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(1106): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(1110): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(1114): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(1119): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(1124): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(1130): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(1147): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(1152): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(1158): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(1162): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(1169): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(1217): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(1320): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(1326): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(1333): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(1341): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(1343): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(1367): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(1383): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(1137): warning C4101: 'i': unreferenced local variable
+c:\femcon2017\femcon\modeldata.cpp(1427): warning C4477: 'sscanf' : format string '%d' requires an argument of type 'int *', but variadic argument 6 has type 'bool *'
+c:\femcon2017\femcon\modeldata.cpp(1427): warning C4477: 'sscanf' : format string '%d' requires an argument of type 'int *', but variadic argument 7 has type 'bool *'
+c:\femcon2017\femcon\modeldata.cpp(1427): warning C4477: 'sscanf' : format string '%d' requires an argument of type 'int *', but variadic argument 8 has type 'bool *'
+c:\femcon2017\femcon\modeldata.cpp(1427): warning C4477: 'sscanf' : format string '%d' requires an argument of type 'int *', but variadic argument 9 has type 'bool *'
+c:\femcon2017\femcon\modeldata.cpp(1427): warning C4477: 'sscanf' : format string '%d' requires an argument of type 'int *', but variadic argument 10 has type 'bool *'
+c:\femcon2017\femcon\modeldata.cpp(1427): warning C4477: 'sscanf' : format string '%d' requires an argument of type 'int *', but variadic argument 11 has type 'bool *'
+c:\femcon2017\femcon\modeldata.cpp(1427): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(1455): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(1463): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(1475): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(1484): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
+c:\femcon2017\femcon\modeldata.cpp(1496): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(1503): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
+c:\femcon2017\femcon\modeldata.cpp(1551): warning C4477: 'sscanf' : format string '%u' requires an argument of type 'unsigned int *', but variadic argument 5 has type 'bool *'
+c:\femcon2017\femcon\modeldata.cpp(1551): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(1557): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(1560): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(1563): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(1569): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(1577): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(1584): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(1591): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(1598): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(1602): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(1610): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(1613): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(1616): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(1621): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(1629): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(1636): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(1643): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(1650): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(1654): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(1662): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(1671): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(1698): warning C4477: 'sscanf' : format string '%u' requires an argument of type 'unsigned int *', but variadic argument 7 has type 'bool *'
+c:\femcon2017\femcon\modeldata.cpp(1698): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(1707): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(1714): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(1716): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(1718): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(1733): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(1798): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(1834): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(1842): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(1854): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(1863): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
+c:\femcon2017\femcon\modeldata.cpp(1875): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(1882): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
+c:\femcon2017\femcon\modeldata.cpp(1934): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(1951): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(1975): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(1983): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(2010): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(2036): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(2050): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(2096): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\femcon2017\femcon\modeldata.cpp(2106): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+  MaterialDLG.cpp
+  HProperties.cpp
+  HNodes.cpp
+c:\femcon2017\femcon\hnodes.cpp(92): warning C4800: 'WORD': forcing value to bool 'true' or 'false' (performance warning)
+  Generating Code...
+c:\femcon2017\femcon\pakoptvalues.cpp(131): warning C4715: 'CPakOptValues::GetMaterialModel': not all control paths return a value
+  Compiling...
+  HMaterial.cpp
+c:\femcon2017\femcon\hmaterial.cpp(187): warning C4800: 'WORD': forcing value to bool 'true' or 'false' (performance warning)
+  HLoads.cpp
+c:\femcon2017\femcon\hloads.cpp(242): warning C4800: 'WORD': forcing value to bool 'true' or 'false' (performance warning)
+c:\femcon2017\femcon\hloads.cpp(244): warning C4800: 'WORD': forcing value to bool 'true' or 'false' (performance warning)
+c:\femcon2017\femcon\hloads.cpp(246): warning C4800: 'WORD': forcing value to bool 'true' or 'false' (performance warning)
+c:\femcon2017\femcon\hloads.cpp(271): warning C4800: 'WORD': forcing value to bool 'true' or 'false' (performance warning)
+c:\femcon2017\femcon\hloads.cpp(273): warning C4800: 'WORD': forcing value to bool 'true' or 'false' (performance warning)
+c:\femcon2017\femcon\hloads.cpp(275): warning C4800: 'WORD': forcing value to bool 'true' or 'false' (performance warning)
+  HFunctions.cpp
+  HElement.cpp
+c:\femcon2017\femcon\helement.cpp(125): warning C4800: 'WORD': forcing value to bool 'true' or 'false' (performance warning)
+c:\femcon2017\femcon\helement.cpp(137): warning C4800: 'WORD': forcing value to bool 'true' or 'false' (performance warning)
+c:\femcon2017\femcon\helement.cpp(142): warning C4800: 'WORD': forcing value to bool 'true' or 'false' (performance warning)
+  HDataBlock.cpp
+  HCProperties.cpp
+  HConstraints.cpp
+c:\femcon2017\femcon\hconstraints.cpp(135): warning C4800: 'WORD': forcing value to bool 'true' or 'false' (performance warning)
+  HConntactSegment.cpp
+  HConnection.cpp
+  GeneralOptTimePeriods.cpp
+  GeneralOptIterMethod.cpp
+c:\femcon2017\femcon\generaloptitermethod.cpp(190): warning C4800: 'BOOL': forcing value to bool 'true' or 'false' (performance warning)
+c:\femcon2017\femcon\generaloptitermethod.cpp(191): warning C4800: 'BOOL': forcing value to bool 'true' or 'false' (performance warning)
+  GeneralOptionsDlg.cpp
+  GeneralDynAnOpt.cpp
+  FinishDlg.cpp
+  FemConDlg.cpp
+  FemCon.cpp
+  DlgImperfection.cpp
+  AnalysedDlg.cpp
+  Generating Code...
+AnalysedDlg.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+  FemCon.vcxproj -> C:\FemCon2017\Debug\FemCon.exe
+  FemCon.vcxproj -> C:\FemCon2017\Debug\FemCon.pdb (Full PDB)

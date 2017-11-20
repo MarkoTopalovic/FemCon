@@ -1,0 +1,742 @@
+﻿Build started 09/09/2016 17:48:13.
+     1>Project "e:\Translator\FemCon2016\FemCon\FemCon.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\FemCon.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\afx.h(33) : see declaration of 'MBCS_Support_Deprecated_In_MFC'
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\FemCon.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt AnalysedDlg.cpp DlgImperfection.cpp FemCon.cpp FemConDlg.cpp FinishDlg.cpp GeneralDynAnOpt.cpp GeneralOptionsDlg.cpp GeneralOptIterMethod.cpp GeneralOptTimePeriods.cpp HConnection.cpp HConntactSegment.cpp HConstraints.cpp HCProperties.cpp HDataBlock.cpp HElement.cpp HFunctions.cpp HLoads.cpp HMaterial.cpp HNodes.cpp HProperties.cpp MaterialDLG.cpp ModelData.cpp PAKEExp.cpp PAKExp.cpp PakExpOpt.cpp PAKFExp.cpp PAKFOptions.cpp PAKMExp.cpp PakOptValues.cpp PAKPExp.cpp PAKString.cpp PAKTExp.cpp PAKTOptions.cpp SBeamOptions.cpp SendKeys.cpp TranslateDlg.cpp UNVImp.cpp
+         AnalysedDlg.cpp
+         DlgImperfection.cpp
+         FemCon.cpp
+         FemConDlg.cpp
+         FinishDlg.cpp
+         GeneralDynAnOpt.cpp
+         GeneralOptionsDlg.cpp
+         GeneralOptIterMethod.cpp
+     1>GeneralOptIterMethod.cpp(190): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>GeneralOptIterMethod.cpp(191): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+         GeneralOptTimePeriods.cpp
+         HConnection.cpp
+         HConntactSegment.cpp
+         HConstraints.cpp
+     1>HConstraints.cpp(135): warning C4800: 'WORD' : forcing value to bool 'true' or 'false' (performance warning)
+         HCProperties.cpp
+         HDataBlock.cpp
+         HElement.cpp
+     1>HElement.cpp(125): warning C4800: 'WORD' : forcing value to bool 'true' or 'false' (performance warning)
+     1>HElement.cpp(137): warning C4800: 'WORD' : forcing value to bool 'true' or 'false' (performance warning)
+     1>HElement.cpp(142): warning C4800: 'WORD' : forcing value to bool 'true' or 'false' (performance warning)
+         HFunctions.cpp
+         HLoads.cpp
+     1>HLoads.cpp(242): warning C4800: 'WORD' : forcing value to bool 'true' or 'false' (performance warning)
+     1>HLoads.cpp(244): warning C4800: 'WORD' : forcing value to bool 'true' or 'false' (performance warning)
+     1>HLoads.cpp(246): warning C4800: 'WORD' : forcing value to bool 'true' or 'false' (performance warning)
+     1>HLoads.cpp(271): warning C4800: 'WORD' : forcing value to bool 'true' or 'false' (performance warning)
+     1>HLoads.cpp(273): warning C4800: 'WORD' : forcing value to bool 'true' or 'false' (performance warning)
+     1>HLoads.cpp(275): warning C4800: 'WORD' : forcing value to bool 'true' or 'false' (performance warning)
+         HMaterial.cpp
+     1>HMaterial.cpp(187): warning C4800: 'WORD' : forcing value to bool 'true' or 'false' (performance warning)
+         HNodes.cpp
+     1>HNodes.cpp(92): warning C4800: 'WORD' : forcing value to bool 'true' or 'false' (performance warning)
+         HProperties.cpp
+         Compiling...
+         MaterialDLG.cpp
+         ModelData.cpp
+     1>ModelData.cpp(539): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(722): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(735): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(743): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(784): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(815): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(833): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(872): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(881): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(888): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(893): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(898): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(903): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(930): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(932): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(934): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(936): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(938): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(940): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(942): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(944): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(946): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(949): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(950): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>ModelData.cpp(951): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>ModelData.cpp(952): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>ModelData.cpp(965): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(970): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(976): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(980): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(981): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>ModelData.cpp(987): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(988): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>ModelData.cpp(989): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>ModelData.cpp(994): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>ModelData.cpp(998): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>ModelData.cpp(1025): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(1027): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(1031): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(1034): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(1037): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(1039): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(1048): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(1056): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(1090): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(1094): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(1098): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(1102): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(1106): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(1110): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(1115): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(1120): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(1124): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(1130): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(1132): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>ModelData.cpp(1133): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>ModelData.cpp(1134): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>ModelData.cpp(1147): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(1152): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(1158): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(1162): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(1163): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>ModelData.cpp(1169): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(1170): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>ModelData.cpp(1171): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>ModelData.cpp(1176): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>ModelData.cpp(1180): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>ModelData.cpp(1218): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(1320): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(1326): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(1333): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(1341): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(1343): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(1368): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(1384): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(1137): warning C4101: 'i' : unreferenced local variable
+     1>ModelData.cpp(1431): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(1455): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(1463): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(1479): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(1484): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>ModelData.cpp(1499): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(1503): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>ModelData.cpp(1553): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(1558): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(1561): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(1564): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(1572): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(1580): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(1587): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(1594): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(1600): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(1605): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(1611): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(1614): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(1617): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(1624): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(1632): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(1639): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(1646): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(1652): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(1657): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(1663): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(1673): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(1698): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(1707): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(1714): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(1716): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(1718): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(1733): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(1798): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(1834): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(1842): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(1858): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(1863): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>ModelData.cpp(1878): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(1882): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>ModelData.cpp(1934): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(1951): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(1975): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(1983): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(2010): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(2036): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(2060): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(2097): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>ModelData.cpp(2107): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+         PAKEExp.cpp
+     1>e:\translator\femcon2016\femcon\PAKEExp.h(5): warning C4005: 'CardH3' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(5) : see previous definition of 'CardH3'
+     1>e:\translator\femcon2016\femcon\PAKEExp.h(6): warning C4005: 'CardV3' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(6) : see previous definition of 'CardV3'
+     1>e:\translator\femcon2016\femcon\PAKEExp.h(7): warning C4005: 'CardH4' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(7) : see previous definition of 'CardH4'
+     1>e:\translator\femcon2016\femcon\PAKEExp.h(8): warning C4005: 'CardV4' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(8) : see previous definition of 'CardV4'
+     1>e:\translator\femcon2016\femcon\PAKEExp.h(9): warning C4005: 'CardH5' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(9) : see previous definition of 'CardH5'
+     1>e:\translator\femcon2016\femcon\PAKEExp.h(10): warning C4005: 'CardV5' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(10) : see previous definition of 'CardV5'
+     1>e:\translator\femcon2016\femcon\PAKEExp.h(11): warning C4005: 'CardH6' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(11) : see previous definition of 'CardH6'
+     1>e:\translator\femcon2016\femcon\PAKEExp.h(16): warning C4005: 'CardH7' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(13) : see previous definition of 'CardH7'
+     1>e:\translator\femcon2016\femcon\PAKEExp.h(17): warning C4005: 'CardV7' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(14) : see previous definition of 'CardV7'
+     1>e:\translator\femcon2016\femcon\PAKEExp.h(20): warning C4005: 'CardH8' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(17) : see previous definition of 'CardH8'
+     1>e:\translator\femcon2016\femcon\PAKEExp.h(21): warning C4005: 'CardV8' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(18) : see previous definition of 'CardV8'
+     1>e:\translator\femcon2016\femcon\PAKEExp.h(22): warning C4005: 'CardH8_2' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(21) : see previous definition of 'CardH8_2'
+     1>e:\translator\femcon2016\femcon\PAKEExp.h(30): warning C4005: 'CardH8_3' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(23) : see previous definition of 'CardH8_3'
+     1>e:\translator\femcon2016\femcon\PAKEExp.h(39): warning C4005: 'CardH9' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(25) : see previous definition of 'CardH9'
+     1>e:\translator\femcon2016\femcon\PAKEExp.h(40): warning C4005: 'CardV9' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(26) : see previous definition of 'CardV9'
+     1>e:\translator\femcon2016\femcon\PAKEExp.h(41): warning C4005: 'CardH9_1' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(27) : see previous definition of 'CardH9_1'
+     1>e:\translator\femcon2016\femcon\PAKEExp.h(42): warning C4005: 'CardV9_1' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(28) : see previous definition of 'CardV9_1'
+     1>e:\translator\femcon2016\femcon\PAKEExp.h(57): warning C4005: 'CardH10' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(29) : see previous definition of 'CardH10'
+     1>e:\translator\femcon2016\femcon\PAKEExp.h(58): warning C4005: 'CardV10' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(30) : see previous definition of 'CardV10'
+     1>e:\translator\femcon2016\femcon\PAKEExp.h(66): warning C4005: 'CardH11' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(38) : see previous definition of 'CardH11'
+     1>e:\translator\femcon2016\femcon\PAKEExp.h(67): warning C4005: 'CardV11' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(39) : see previous definition of 'CardV11'
+     1>e:\translator\femcon2016\femcon\PAKEExp.h(70): warning C4005: 'CardH12' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(42) : see previous definition of 'CardH12'
+     1>e:\translator\femcon2016\femcon\PAKEExp.h(71): warning C4005: 'CardV12' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(43) : see previous definition of 'CardV12'
+     1>e:\translator\femcon2016\femcon\PAKEExp.h(73): warning C4005: 'CardH12_1' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(45) : see previous definition of 'CardH12_1'
+     1>e:\translator\femcon2016\femcon\PAKEExp.h(79): warning C4005: 'CardH12_2' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(52) : see previous definition of 'CardH12_2'
+     1>e:\translator\femcon2016\femcon\PAKEExp.h(97): warning C4005: 'CardH12_5' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(60) : see previous definition of 'CardH12_5'
+     1>e:\translator\femcon2016\femcon\PAKEExp.h(107): warning C4005: 'CardH12_6' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(68) : see previous definition of 'CardH12_6'
+     1>e:\translator\femcon2016\femcon\PAKEExp.h(110): warning C4005: 'CardH13_2' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(112) : see previous definition of 'CardH13_2'
+     1>e:\translator\femcon2016\femcon\PAKEExp.h(114): warning C4005: 'CardH13_3' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(134) : see previous definition of 'CardH13_3'
+     1>e:\translator\femcon2016\femcon\PAKEExp.h(131): warning C4005: 'NULAZ' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(222) : see previous definition of 'NULAZ'
+     1>e:\translator\femcon2016\femcon\PAKEExp.h(138): warning C4005: 'MAXIT' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(258) : see previous definition of 'MAXIT'
+     1>e:\translator\femcon2016\femcon\PAKEExp.h(143): warning C4005: 'IREST' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(246) : see previous definition of 'IREST'
+     1>PAKEExp.cpp(52): warning C4244: '=' : conversion from 'ULONGLONG' to 'long', possible loss of data
+     1>PAKEExp.cpp(75): warning C4018: '<=' : signed/unsigned mismatch
+     1>PAKEExp.cpp(83): warning C4018: '<=' : signed/unsigned mismatch
+     1>PAKEExp.cpp(764): warning C4101: 'CONfuncs' : unreferenced local variable
+     1>PAKEExp.cpp(767): warning C4101: 'ima' : unreferenced local variable
+     1>PAKEExp.cpp(764): warning C4101: 'TCfuncs' : unreferenced local variable
+     1>PAKEExp.cpp(1230): warning C4018: '<' : signed/unsigned mismatch
+     1>PAKEExp.cpp(1251): warning C4018: '<' : signed/unsigned mismatch
+     1>PAKEExp.cpp(1272): warning C4018: '<' : signed/unsigned mismatch
+     1>PAKEExp.cpp(1293): warning C4018: '<' : signed/unsigned mismatch
+     1>PAKEExp.cpp(1314): warning C4018: '<' : signed/unsigned mismatch
+     1>PAKEExp.cpp(1115): warning C4101: 'uIHP' : unreferenced local variable
+     1>PAKEExp.cpp(1115): warning C4101: 'uIFL' : unreferenced local variable
+         PAKExp.cpp
+     1>PAKExp.cpp(66): warning C4244: '=' : conversion from 'ULONGLONG' to 'long', possible loss of data
+     1>PAKExp.cpp(232): warning C4101: 'matID' : unreferenced local variable
+     1>PAKExp.cpp(232): warning C4101: 'elType' : unreferenced local variable
+     1>PAKExp.cpp(232): warning C4101: 'matType' : unreferenced local variable
+     1>PAKExp.cpp(288): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>PAKExp.cpp(289): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>PAKExp.cpp(411): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>PAKExp.cpp(412): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>PAKExp.cpp(529): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>PAKExp.cpp(530): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>PAKExp.cpp(880): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>PAKExp.cpp(881): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>PAKExp.cpp(992): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>PAKExp.cpp(993): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>PAKExp.cpp(1163): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>PAKExp.cpp(1164): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>PAKExp.cpp(1294): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>PAKExp.cpp(1295): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>PAKExp.cpp(1425): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>PAKExp.cpp(1426): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>PAKExp.cpp(1555): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>PAKExp.cpp(1556): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>PAKExp.cpp(1666): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>PAKExp.cpp(1667): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>PAKExp.cpp(1792): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>PAKExp.cpp(1793): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>PAKExp.cpp(300): warning C4101: 'uMODEL1' : unreferenced local variable
+     1>PAKExp.cpp(1053): warning C4101: 'uMat' : unreferenced local variable
+     1>PAKExp.cpp(2640): warning C4101: 'ima' : unreferenced local variable
+         PakExpOpt.cpp
+         PAKFExp.cpp
+     1>e:\translator\femcon2016\femcon\PAKFExp.h(92): warning C4005: 'MAXIT' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(258) : see previous definition of 'MAXIT'
+     1>e:\translator\femcon2016\femcon\PAKFExp.h(98): warning C4005: 'IREST' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(246) : see previous definition of 'IREST'
+     1>PAKFExp.cpp(54): warning C4244: '=' : conversion from 'ULONGLONG' to 'long', possible loss of data
+     1>PAKFExp.cpp(169): warning C4018: '<' : signed/unsigned mismatch
+     1>PAKFExp.cpp(232): warning C4018: '<' : signed/unsigned mismatch
+     1>PAKFExp.cpp(325): warning C4018: '<' : signed/unsigned mismatch
+     1>PAKFExp.cpp(341): warning C4018: '<' : signed/unsigned mismatch
+     1>PAKFExp.cpp(391): warning C4018: '<' : signed/unsigned mismatch
+         PAKFOptions.cpp
+         PAKMExp.cpp
+     1>e:\translator\femcon2016\femcon\PAKMExp.h(5): warning C4005: 'CardH3' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(5) : see previous definition of 'CardH3'
+     1>e:\translator\femcon2016\femcon\PAKMExp.h(6): warning C4005: 'CardV3' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(6) : see previous definition of 'CardV3'
+     1>e:\translator\femcon2016\femcon\PAKMExp.h(7): warning C4005: 'CardH4' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(7) : see previous definition of 'CardH4'
+     1>e:\translator\femcon2016\femcon\PAKMExp.h(8): warning C4005: 'CardV4' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(8) : see previous definition of 'CardV4'
+     1>e:\translator\femcon2016\femcon\PAKMExp.h(9): warning C4005: 'CardH5' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(9) : see previous definition of 'CardH5'
+     1>e:\translator\femcon2016\femcon\PAKMExp.h(10): warning C4005: 'CardV5' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(10) : see previous definition of 'CardV5'
+     1>e:\translator\femcon2016\femcon\PAKMExp.h(11): warning C4005: 'CardH6' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(11) : see previous definition of 'CardH6'
+     1>e:\translator\femcon2016\femcon\PAKMExp.h(16): warning C4005: 'CardH7' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(13) : see previous definition of 'CardH7'
+     1>e:\translator\femcon2016\femcon\PAKMExp.h(17): warning C4005: 'CardV7' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(14) : see previous definition of 'CardV7'
+     1>e:\translator\femcon2016\femcon\PAKMExp.h(20): warning C4005: 'CardH8' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(17) : see previous definition of 'CardH8'
+     1>e:\translator\femcon2016\femcon\PAKMExp.h(21): warning C4005: 'CardV8' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(18) : see previous definition of 'CardV8'
+     1>e:\translator\femcon2016\femcon\PAKMExp.h(22): warning C4005: 'CardH8_2' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(21) : see previous definition of 'CardH8_2'
+     1>e:\translator\femcon2016\femcon\PAKMExp.h(30): warning C4005: 'CardH8_3' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(23) : see previous definition of 'CardH8_3'
+     1>e:\translator\femcon2016\femcon\PAKMExp.h(39): warning C4005: 'CardH9' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(25) : see previous definition of 'CardH9'
+     1>e:\translator\femcon2016\femcon\PAKMExp.h(40): warning C4005: 'CardV9' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(26) : see previous definition of 'CardV9'
+     1>e:\translator\femcon2016\femcon\PAKMExp.h(41): warning C4005: 'CardH9_1' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(27) : see previous definition of 'CardH9_1'
+     1>e:\translator\femcon2016\femcon\PAKMExp.h(42): warning C4005: 'CardV9_1' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(28) : see previous definition of 'CardV9_1'
+     1>e:\translator\femcon2016\femcon\PAKMExp.h(57): warning C4005: 'CardH10' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(29) : see previous definition of 'CardH10'
+     1>e:\translator\femcon2016\femcon\PAKMExp.h(58): warning C4005: 'CardV10' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(30) : see previous definition of 'CardV10'
+     1>e:\translator\femcon2016\femcon\PAKMExp.h(66): warning C4005: 'CardH11' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(38) : see previous definition of 'CardH11'
+     1>e:\translator\femcon2016\femcon\PAKMExp.h(67): warning C4005: 'CardV11' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(39) : see previous definition of 'CardV11'
+     1>e:\translator\femcon2016\femcon\PAKMExp.h(70): warning C4005: 'CardH12' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(42) : see previous definition of 'CardH12'
+     1>e:\translator\femcon2016\femcon\PAKMExp.h(71): warning C4005: 'CardV12' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(43) : see previous definition of 'CardV12'
+     1>e:\translator\femcon2016\femcon\PAKMExp.h(73): warning C4005: 'CardH12_1' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(45) : see previous definition of 'CardH12_1'
+     1>e:\translator\femcon2016\femcon\PAKMExp.h(79): warning C4005: 'CardH12_2' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(52) : see previous definition of 'CardH12_2'
+     1>e:\translator\femcon2016\femcon\PAKMExp.h(97): warning C4005: 'CardH12_5' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(60) : see previous definition of 'CardH12_5'
+     1>e:\translator\femcon2016\femcon\PAKMExp.h(107): warning C4005: 'CardH12_6' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(68) : see previous definition of 'CardH12_6'
+     1>e:\translator\femcon2016\femcon\PAKMExp.h(110): warning C4005: 'CardH13_2' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(112) : see previous definition of 'CardH13_2'
+     1>e:\translator\femcon2016\femcon\PAKMExp.h(114): warning C4005: 'CardH13_3' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(134) : see previous definition of 'CardH13_3'
+     1>e:\translator\femcon2016\femcon\PAKMExp.h(131): warning C4005: 'NULAZ' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(222) : see previous definition of 'NULAZ'
+     1>e:\translator\femcon2016\femcon\PAKMExp.h(138): warning C4005: 'MAXIT' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(258) : see previous definition of 'MAXIT'
+     1>e:\translator\femcon2016\femcon\PAKMExp.h(143): warning C4005: 'IREST' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(246) : see previous definition of 'IREST'
+     1>PAKMExp.cpp(52): warning C4244: '=' : conversion from 'ULONGLONG' to 'long', possible loss of data
+     1>PAKMExp.cpp(75): warning C4018: '<=' : signed/unsigned mismatch
+     1>PAKMExp.cpp(83): warning C4018: '<=' : signed/unsigned mismatch
+     1>PAKMExp.cpp(764): warning C4101: 'CONfuncs' : unreferenced local variable
+     1>PAKMExp.cpp(764): warning C4101: 'TCfuncs' : unreferenced local variable
+     1>PAKMExp.cpp(1237): warning C4018: '<' : signed/unsigned mismatch
+     1>PAKMExp.cpp(1258): warning C4018: '<' : signed/unsigned mismatch
+     1>PAKMExp.cpp(1279): warning C4018: '<' : signed/unsigned mismatch
+     1>PAKMExp.cpp(1300): warning C4018: '<' : signed/unsigned mismatch
+     1>PAKMExp.cpp(1321): warning C4018: '<' : signed/unsigned mismatch
+     1>PAKMExp.cpp(1115): warning C4101: 'uIHP' : unreferenced local variable
+     1>PAKMExp.cpp(1115): warning C4101: 'uIFL' : unreferenced local variable
+         PakOptValues.cpp
+     1>PakOptValues.cpp(38): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>PakOptValues.cpp(43): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+         PAKPExp.cpp
+     1>e:\translator\femcon2016\femcon\PAKPExp.h(5): warning C4005: 'CardH3' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(5) : see previous definition of 'CardH3'
+     1>e:\translator\femcon2016\femcon\PAKPExp.h(6): warning C4005: 'CardV3' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(6) : see previous definition of 'CardV3'
+     1>e:\translator\femcon2016\femcon\PAKPExp.h(7): warning C4005: 'CardH4' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(7) : see previous definition of 'CardH4'
+     1>e:\translator\femcon2016\femcon\PAKPExp.h(8): warning C4005: 'CardV4' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(8) : see previous definition of 'CardV4'
+     1>e:\translator\femcon2016\femcon\PAKPExp.h(9): warning C4005: 'CardH5' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(9) : see previous definition of 'CardH5'
+     1>e:\translator\femcon2016\femcon\PAKPExp.h(10): warning C4005: 'CardV5' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(10) : see previous definition of 'CardV5'
+     1>e:\translator\femcon2016\femcon\PAKPExp.h(11): warning C4005: 'CardH6' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(11) : see previous definition of 'CardH6'
+     1>e:\translator\femcon2016\femcon\PAKPExp.h(12): warning C4005: 'CardV6' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(12) : see previous definition of 'CardV6'
+     1>e:\translator\femcon2016\femcon\PAKPExp.h(13): warning C4005: 'CardH7' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(13) : see previous definition of 'CardH7'
+     1>e:\translator\femcon2016\femcon\PAKPExp.h(14): warning C4005: 'CardV7' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(14) : see previous definition of 'CardV7'
+     1>e:\translator\femcon2016\femcon\PAKPExp.h(17): warning C4005: 'CardH8' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(17) : see previous definition of 'CardH8'
+     1>e:\translator\femcon2016\femcon\PAKPExp.h(18): warning C4005: 'CardV8' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(18) : see previous definition of 'CardV8'
+     1>e:\translator\femcon2016\femcon\PAKPExp.h(19): warning C4005: 'CardH8_2' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(21) : see previous definition of 'CardH8_2'
+     1>e:\translator\femcon2016\femcon\PAKPExp.h(27): warning C4005: 'CardH8_3' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(23) : see previous definition of 'CardH8_3'
+     1>e:\translator\femcon2016\femcon\PAKPExp.h(36): warning C4005: 'CardH9' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(25) : see previous definition of 'CardH9'
+     1>e:\translator\femcon2016\femcon\PAKPExp.h(48): warning C4005: 'CardH11' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(38) : see previous definition of 'CardH11'
+     1>e:\translator\femcon2016\femcon\PAKPExp.h(49): warning C4005: 'CardV11' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(39) : see previous definition of 'CardV11'
+     1>e:\translator\femcon2016\femcon\PAKPExp.h(56): warning C4005: 'CardH12' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(42) : see previous definition of 'CardH12'
+     1>e:\translator\femcon2016\femcon\PAKPExp.h(57): warning C4005: 'CardV12' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(43) : see previous definition of 'CardV12'
+     1>e:\translator\femcon2016\femcon\PAKPExp.h(58): warning C4005: 'CardH12_1' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(45) : see previous definition of 'CardH12_1'
+     1>e:\translator\femcon2016\femcon\PAKPExp.h(68): warning C4005: 'CardH13' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(105) : see previous definition of 'CardH13'
+     1>e:\translator\femcon2016\femcon\PAKPExp.h(69): warning C4005: 'CardV13' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(106) : see previous definition of 'CardV13'
+     1>e:\translator\femcon2016\femcon\PAKPExp.h(70): warning C4005: 'CardH13_1' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(107) : see previous definition of 'CardH13_1'
+     1>e:\translator\femcon2016\femcon\PAKPExp.h(80): warning C4005: 'CardV14_1_a_1' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(177) : see previous definition of 'CardV14_1_a_1'
+     1>e:\translator\femcon2016\femcon\PAKPExp.h(82): warning C4005: 'CardV14_1_b_1' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(179) : see previous definition of 'CardV14_1_b_1'
+     1>e:\translator\femcon2016\femcon\PAKPExp.h(86): warning C4005: 'CardH15' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(182) : see previous definition of 'CardH15'
+     1>e:\translator\femcon2016\femcon\PAKPExp.h(87): warning C4005: 'CardV15' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(183) : see previous definition of 'CardV15'
+     1>e:\translator\femcon2016\femcon\PAKPExp.h(103): warning C4005: 'MAXIT' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(258) : see previous definition of 'MAXIT'
+     1>PAKPExp.cpp(62): warning C4244: '=' : conversion from 'ULONGLONG' to 'long', possible loss of data
+     1>PAKPExp.cpp(247): warning C4101: 'uINDAX' : unreferenced local variable
+     1>PAKPExp.cpp(247): warning C4101: 'uNETIP' : unreferenced local variable
+         PAKString.cpp
+     1>PAKString.cpp(58): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>PAKString.cpp(330): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'vsprintf'
+     1>PAKString.cpp(364): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+         PAKTExp.cpp
+     1>e:\translator\femcon2016\femcon\PAKTExp.h(5): warning C4005: 'CardH3' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(5) : see previous definition of 'CardH3'
+     1>e:\translator\femcon2016\femcon\PAKTExp.h(6): warning C4005: 'CardV3' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(6) : see previous definition of 'CardV3'
+     1>e:\translator\femcon2016\femcon\PAKTExp.h(7): warning C4005: 'CardH4' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(7) : see previous definition of 'CardH4'
+     1>e:\translator\femcon2016\femcon\PAKTExp.h(8): warning C4005: 'CardV4' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(8) : see previous definition of 'CardV4'
+     1>e:\translator\femcon2016\femcon\PAKTExp.h(9): warning C4005: 'CardH5' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(9) : see previous definition of 'CardH5'
+     1>e:\translator\femcon2016\femcon\PAKTExp.h(10): warning C4005: 'CardV5' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(10) : see previous definition of 'CardV5'
+     1>e:\translator\femcon2016\femcon\PAKTExp.h(11): warning C4005: 'CardH6' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(11) : see previous definition of 'CardH6'
+     1>e:\translator\femcon2016\femcon\PAKTExp.h(16): warning C4005: 'CardH7' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(13) : see previous definition of 'CardH7'
+     1>e:\translator\femcon2016\femcon\PAKTExp.h(17): warning C4005: 'CardV7' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(14) : see previous definition of 'CardV7'
+     1>e:\translator\femcon2016\femcon\PAKTExp.h(20): warning C4005: 'CardH8' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(17) : see previous definition of 'CardH8'
+     1>e:\translator\femcon2016\femcon\PAKTExp.h(21): warning C4005: 'CardV8' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(18) : see previous definition of 'CardV8'
+     1>e:\translator\femcon2016\femcon\PAKTExp.h(22): warning C4005: 'CardH8_2' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(21) : see previous definition of 'CardH8_2'
+     1>e:\translator\femcon2016\femcon\PAKTExp.h(30): warning C4005: 'CardH8_3' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(23) : see previous definition of 'CardH8_3'
+     1>e:\translator\femcon2016\femcon\PAKTExp.h(39): warning C4005: 'CardH9' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(25) : see previous definition of 'CardH9'
+     1>e:\translator\femcon2016\femcon\PAKTExp.h(40): warning C4005: 'CardV9' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(26) : see previous definition of 'CardV9'
+     1>e:\translator\femcon2016\femcon\PAKTExp.h(41): warning C4005: 'CardH9_1' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(27) : see previous definition of 'CardH9_1'
+     1>e:\translator\femcon2016\femcon\PAKTExp.h(42): warning C4005: 'CardV9_1' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(28) : see previous definition of 'CardV9_1'
+     1>e:\translator\femcon2016\femcon\PAKTExp.h(57): warning C4005: 'CardH10' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(29) : see previous definition of 'CardH10'
+     1>e:\translator\femcon2016\femcon\PAKTExp.h(58): warning C4005: 'CardV10' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(30) : see previous definition of 'CardV10'
+     1>e:\translator\femcon2016\femcon\PAKTExp.h(66): warning C4005: 'CardH11' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(38) : see previous definition of 'CardH11'
+     1>e:\translator\femcon2016\femcon\PAKTExp.h(67): warning C4005: 'CardV11' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(39) : see previous definition of 'CardV11'
+     1>e:\translator\femcon2016\femcon\PAKTExp.h(70): warning C4005: 'CardH12' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(42) : see previous definition of 'CardH12'
+     1>e:\translator\femcon2016\femcon\PAKTExp.h(71): warning C4005: 'CardV12' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(43) : see previous definition of 'CardV12'
+     1>e:\translator\femcon2016\femcon\PAKTExp.h(73): warning C4005: 'CardH12_1' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(45) : see previous definition of 'CardH12_1'
+     1>e:\translator\femcon2016\femcon\PAKTExp.h(79): warning C4005: 'CardH12_2' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(52) : see previous definition of 'CardH12_2'
+     1>e:\translator\femcon2016\femcon\PAKTExp.h(97): warning C4005: 'CardH12_5' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(60) : see previous definition of 'CardH12_5'
+     1>e:\translator\femcon2016\femcon\PAKTExp.h(107): warning C4005: 'CardH12_6' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(68) : see previous definition of 'CardH12_6'
+     1>e:\translator\femcon2016\femcon\PAKTExp.h(110): warning C4005: 'CardH13_2' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(112) : see previous definition of 'CardH13_2'
+     1>e:\translator\femcon2016\femcon\PAKTExp.h(114): warning C4005: 'CardH13_3' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(134) : see previous definition of 'CardH13_3'
+     1>e:\translator\femcon2016\femcon\PAKTExp.h(131): warning C4005: 'NULAZ' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(222) : see previous definition of 'NULAZ'
+     1>e:\translator\femcon2016\femcon\PAKTExp.h(138): warning C4005: 'MAXIT' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(258) : see previous definition of 'MAXIT'
+     1>e:\translator\femcon2016\femcon\PAKTExp.h(143): warning C4005: 'IREST' : macro redefinition
+                 e:\translator\femcon2016\femcon\PAKExp.h(246) : see previous definition of 'IREST'
+     1>PAKTExp.cpp(52): warning C4244: '=' : conversion from 'ULONGLONG' to 'long', possible loss of data
+     1>PAKTExp.cpp(75): warning C4018: '<=' : signed/unsigned mismatch
+     1>PAKTExp.cpp(83): warning C4018: '<=' : signed/unsigned mismatch
+     1>PAKTExp.cpp(764): warning C4101: 'CONfuncs' : unreferenced local variable
+     1>PAKTExp.cpp(764): warning C4101: 'TCfuncs' : unreferenced local variable
+     1>PAKTExp.cpp(1237): warning C4018: '<' : signed/unsigned mismatch
+     1>PAKTExp.cpp(1258): warning C4018: '<' : signed/unsigned mismatch
+     1>PAKTExp.cpp(1279): warning C4018: '<' : signed/unsigned mismatch
+     1>PAKTExp.cpp(1300): warning C4018: '<' : signed/unsigned mismatch
+     1>PAKTExp.cpp(1321): warning C4018: '<' : signed/unsigned mismatch
+     1>PAKTExp.cpp(1115): warning C4101: 'uIHP' : unreferenced local variable
+     1>PAKTExp.cpp(1115): warning C4101: 'uIFL' : unreferenced local variable
+         PAKTOptions.cpp
+         SBeamOptions.cpp
+         SendKeys.cpp
+     1>SendKeys.cpp(218): warning C4996: 'GetVersion': was declared deprecated
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(110) : see declaration of 'GetVersion'
+     1>SendKeys.cpp(440): warning C4996: '_tcsncpy': This function or variable may be unsafe. Consider using _tcsncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\tchar.h(1587) : see declaration of '_tcsncpy'
+     1>SendKeys.cpp(615): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>SendKeys.cpp(620): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+         TranslateDlg.cpp
+         UNVImp.cpp
+     1>UNVImp.cpp(92): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>UNVImp.cpp(106): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>UNVImp.cpp(126): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>UNVImp.cpp(163): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>UNVImp.cpp(170): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>UNVImp.cpp(177): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>UNVImp.cpp(211): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>UNVImp.cpp(215): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>UNVImp.cpp(219): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>UNVImp.cpp(223): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>UNVImp.cpp(227): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>UNVImp.cpp(231): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>UNVImp.cpp(236): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>UNVImp.cpp(241): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>UNVImp.cpp(245): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>UNVImp.cpp(251): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>UNVImp.cpp(253): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>UNVImp.cpp(254): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>UNVImp.cpp(255): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>UNVImp.cpp(269): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>UNVImp.cpp(273): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>UNVImp.cpp(279): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>UNVImp.cpp(285): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>UNVImp.cpp(292): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>UNVImp.cpp(297): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>UNVImp.cpp(312): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>UNVImp.cpp(328): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>UNVImp.cpp(362): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D NDEBUG /l"0x0409" /IRelease\ /nologo /fo"Release\FemCon.res" FemCon.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Translator\FemCon2016\Release\FemCon.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"E:\Translator\FemCon2016\Release\FemCon.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Translator\FemCon2016\Release\FemCon.lib" /MACHINE:X86 /SAFESEH Release\FemCon.res
+         Release\AnalysedDlg.obj
+         Release\DlgImperfection.obj
+         Release\FemCon.obj
+         Release\FemConDlg.obj
+         Release\FinishDlg.obj
+         Release\GeneralDynAnOpt.obj
+         Release\GeneralOptionsDlg.obj
+         Release\GeneralOptIterMethod.obj
+         Release\GeneralOptTimePeriods.obj
+         Release\HConnection.obj
+         Release\HConntactSegment.obj
+         Release\HConstraints.obj
+         Release\HCProperties.obj
+         Release\HDataBlock.obj
+         Release\HElement.obj
+         Release\HFunctions.obj
+         Release\HLoads.obj
+         Release\HMaterial.obj
+         Release\HNodes.obj
+         Release\HProperties.obj
+         Release\MaterialDLG.obj
+         Release\ModelData.obj
+         Release\PAKEExp.obj
+         Release\PAKExp.obj
+         Release\PakExpOpt.obj
+         Release\PAKFExp.obj
+         Release\PAKFOptions.obj
+         Release\PAKMExp.obj
+         Release\PakOptValues.obj
+         Release\PAKPExp.obj
+         Release\PAKString.obj
+         Release\PAKTExp.obj
+         Release\PAKTOptions.obj
+         Release\SBeamOptions.obj
+         Release\SendKeys.obj
+         Release\stdafx.obj
+         Release\TranslateDlg.obj
+         Release\UNVImp.obj
+         Generating code
+     1>e:\translator\femcon2016\femcon\pakoptvalues.cpp(131): warning C4715: 'CPakOptValues::GetMaterialModel' : not all control paths return a value
+         Finished generating code
+         FemCon.vcxproj -> E:\Translator\FemCon2016\Release\FemCon.exe
+     1>Done Building Project "e:\Translator\FemCon2016\FemCon\FemCon.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:22.93
