@@ -174,14 +174,14 @@ UINT CModelData::ExportPAK_P(CStdioFile* file,CPakExpOpt *peo)
 //	str.Format("%5u%5u%5u%5u%5u%5u%5u%5u%5u%5u",m_NodArray.GetSize(),m_PropArray.GetSize(),m_MaterialsArray.GetSize(),m_PakOptValue.GetDynamicAnIsSet(),uNPER,NPRINT,IANIZ,NULAZ,ITOR,IGRAF);
 // Na silu Brj grupa elemenata je uvek 1 
 //	if((m_NodArray.GetSize())<=99999)
-	if(iINPT==0)
-		{
-			str.Format("%5u               %5u%5u%5u%5u",m_NodArray.GetSize(),uNPER,NPRINT,(m_PakOptValue.GetDynamicAnIsSet() ? 0:1),IVDP);
-		}
-	else 
-		{
-			str.Format("%10u               %5u%5u%5u%5u",m_NodArray.GetSize(),uNPER,NPRINT,(m_PakOptValue.GetDynamicAnIsSet() ? 0:1),IVDP);
-		}
+	if (iINPT == 0)
+	{
+		str.Format("%5u               %5u%5u%5u%5u%5u", m_NodArray.GetSize(), uNPER, NPRINT, (m_PakOptValue.GetDynamicAnIsSet() ? 0 : 1), IVDP, ISNUMBER);
+	}
+	else
+	{
+		str.Format("%10u               %5u%5u%5u%5u%5u", m_NodArray.GetSize(), uNPER, NPRINT, (m_PakOptValue.GetDynamicAnIsSet() ? 0 : 1), IVDP, ISNUMBER);
+	}
 
 	file->WriteString(str);
 	file->Seek(0,CFile::end);
@@ -712,12 +712,11 @@ UINT CModelData::ExportPAKP_Loads(CStdioFile* file, int iINPT)
 	}
 
 	lo=m_LoadArray[0];	//Za sada samo prvi set
-	
+
 	for(i=0;i<(UINT)m_FunctionsArray.GetSize();i++)
 		if((UINT)m_FunctionsArray[i].m_FunctionEntry.GetSize()>uMAXTFT)
 			uMAXTFT=m_FunctionsArray[i].m_FunctionEntry.GetSize();
-
-
+//	UINT HFfuncs[uMAXTFT], CONVfuncs[uMAXTFT];
 //Odredjivanje NQP
 	UINT uNQP_Loads=0;
 	for(i=0;i<(UINT)lo.m_StructLoads.GetSize();i++)

@@ -18,7 +18,7 @@ CGeneralOptTimePeriods::CGeneralOptTimePeriods(CWnd* pParent /*=NULL*/)
 	: CDialog(CGeneralOptTimePeriods::IDD, pParent)
 {
 	m_iNumberOfSteps = 1;
-	m_dIncrement = 1.0;
+	m_dIncrement = 0.0;
 }
 
 CGeneralOptTimePeriods::~CGeneralOptTimePeriods()
@@ -31,7 +31,8 @@ void CGeneralOptTimePeriods::DoDataExchange(CDataExchange* pDX)
 	DDX_Text(pDX, IDC_EDIT_NUM_OF_STEPS, m_iNumberOfSteps);
 	DDV_MinMaxInt(pDX, m_iNumberOfSteps, 1, 10000);
 	DDX_Text(pDX, IDC_EDIT_TIME_STP_INC, m_dIncrement);
-	DDV_MinMaxDouble(pDX, m_dIncrement, 1.e-006, 10000000000.);
+	DDV_MinMaxDouble(pDX, m_dIncrement, 0.0, 10000000000.);
+//	DDV_MinMaxDouble(pDX, m_dIncrement, 1.e-006, 10000000000.);
 }
 
 
@@ -178,7 +179,7 @@ int CGeneralOptTimePeriods::OnCreate(LPCREATESTRUCT lpCreateStruct)
 //	m_iNumOfTStep.RemoveAll();
 //	m_dTStepIncrement.RemoveAll();
 	m_iNumberOfSteps=1;
-	m_dIncrement=1.;
+	m_dIncrement=0.;
 	
 	return 0;
 }

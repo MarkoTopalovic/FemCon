@@ -29,7 +29,7 @@ UINT CModelData::ExportPAK_PT(CStdioFile* file,CPakExpOpt *peo)
 
 	iINPT = 0;
 	iICCGG = 0;
-	iPAKT = 0;
+	iPAKT = 1;
 
 	if((m_NodArray.GetSize())<=0)
 	{
@@ -144,11 +144,11 @@ UINT CModelData::ExportPAK_PT(CStdioFile* file,CPakExpOpt *peo)
 //	if((m_NodArray.GetSize())<=99999)
 	if(iINPT==0)
 		{
-			str.Format("%5u               %5u%5u%5u%5u",m_NodArray.GetSize(),uNPER,NPRINT,(m_PakOptValue.GetDynamicAnIsSet() ? 0:1),IVDP);
+		str.Format("%5u               %5u%5u%5u%5u%5u", m_NodArray.GetSize(), uNPER, NPRINT, (m_PakOptValue.GetDynamicAnIsSet() ? 0 : 1), IVDP, ISNUMBER);
 		}
 	else 
 		{
-			str.Format("%10u               %5u%5u%5u%5u",m_NodArray.GetSize(),uNPER,NPRINT,(m_PakOptValue.GetDynamicAnIsSet() ? 0:1),IVDP);
+		str.Format("%10u               %5u%5u%5u%5u%5u", m_NodArray.GetSize(), uNPER, NPRINT, (m_PakOptValue.GetDynamicAnIsSet() ? 0 : 1), IVDP, ISNUMBER);
 		}
 
 	file->WriteString(str);
@@ -258,6 +258,7 @@ UINT CModelData::ExportPAKPT_Loads(CStdioFile* file, int iINPT)
 	bool ima;
 	HElement el;
 	HNodes nn;
+	//nn = m_NodArray[cvor - 1];
 	double tez[3];
 
 	UINT surface_nodes_3d[6][8]={   {0,3,2,1,11,10,9,8},
@@ -438,6 +439,7 @@ UINT CModelData::ExportPAKPT_Loads(CStdioFile* file, int iINPT)
 */
 
 // elementi na kojima je zadat fluks
+	int IFRAD = 0;
   if(uNQP_Loads>0)
   {
 //Card /11-a i 11-b/
@@ -533,7 +535,20 @@ UINT CModelData::ExportPAKPT_Loads(CStdioFile* file, int iINPT)
 									}
 							file->WriteString(str);
 						}
-/*						
+						if (el.m_uTopology == FETO_QUAD4)
+						{
+							int node24 = 0;
+						if (iINPT == 0)
+						{
+							str.Format("%5d%5d%5d%5d%5d%5d", node24, node24, node24, node24, node24, node24);
+						}
+						else
+						{
+							str.Format("%10d%10d%10d%10d%10d%10d", node24, node24, node24, node24, node24, node24);
+						}
+						file->WriteString(str);
+						}
+						/*
 						UINT q=0;
 						for(k=0;k<uNQP;k++)
 							if(HFfuncs[k]==sl.m_uSl_funcID) break;
@@ -544,7 +559,10 @@ UINT CModelData::ExportPAKPT_Loads(CStdioFile* file, int iINPT)
 //   								if((m_NodArray.GetSize())<=99999)
 //								if(iINPT==0)  //format funkcije ne treba da zavisi od broja cvorova
 									//{
-										str.Format("%5d%10.6f%10.6f\n",sl.m_uSl_funcID,sl.m_dValue[0],sl.m_dValue[0]);
+					/*							if(iINPT==0)
+					{*/
+					     str.Format("%10d%10.6f%10.6f%10.6f%10.6f\n", sl.m_uSl_funcID, sl.m_dValue[0], sl.m_dValue[0], sl.m_dValue[0], sl.m_dValue[0]);
+//										str.Format("%10d%10.6f%10.6f\n",sl.m_uSl_funcID,sl.m_dValue[0],sl.m_dValue[0]);
 //									}
 //								else 
 //									{
@@ -628,7 +646,7 @@ UINT CModelData::ExportPAKPT_Loads(CStdioFile* file, int iINPT)
 								file->WriteString(str);
 /*							if(iINPT==0)
 								{*/
-								str.Format("%5d%10.6f%10.6f%10.6f%10.6f\n",sl.m_uSl_funcID,sl.m_dValue[0],sl.m_dValue[0],sl.m_dValue[0],sl.m_dValue[0]);
+								str.Format("%10d%10.6f%10.6f%10.6f%10.6f%5d\n", sl.m_uSl_funcID, sl.m_dValue[0], sl.m_dValue[0], sl.m_dValue[0], sl.m_dValue[0],IFRAD);
 /*								}
 							else 
 								{
@@ -671,7 +689,7 @@ UINT CModelData::ExportPAKPT_Loads(CStdioFile* file, int iINPT)
 									}
 								else 
 									{
-									str.Format("%10d%10.6f%10.6f%10.6f%10.6f\n",sl.m_uSl_funcID,sl.m_dValue[0],sl.m_dValue[0],sl.m_dValue[0],press4);
+									str.Format("%10d%10.6f%10.6f%10.6f%10.6f%5d\n", sl.m_uSl_funcID, sl.m_dValue[0], sl.m_dValue[0], sl.m_dValue[0], press4, IFRAD);
 									}
 								file->WriteString(str);
 							}
@@ -729,7 +747,7 @@ UINT CModelData::ExportPAKPT_Loads(CStdioFile* file, int iINPT)
 									}
 								else 
 									{
-										str.Format("%10d%10.6f%10.6f%10.6f%10.6f\n",sl.m_uSl_funcID,sl.m_dValue[0],sl.m_dValue[0],sl.m_dValue[0],sl.m_dValue[0]);
+									str.Format("%10d%10.6f%10.6f%10.6f%10.6f%5d\n", sl.m_uSl_funcID, sl.m_dValue[0], sl.m_dValue[0], sl.m_dValue[0], sl.m_dValue[0], IFRAD);
 									}
 								file->WriteString(str);
 							}
@@ -772,6 +790,7 @@ UINT CModelData::ExportPAKPT_Loads(CStdioFile* file, int iINPT)
 		if (uNPP2>0)
 		{
 			UINT uITIPE;
+			int cvor1 = 0;
 			file->WriteString(CardH11_a);
 			file->WriteString(CardV11_a);
 			for (i = 0; i<(UINT)lo.m_StructLoads.GetSize(); i++)
@@ -835,6 +854,16 @@ UINT CModelData::ExportPAKPT_Loads(CStdioFile* file, int iINPT)
 									}
 								file->WriteString(str);
 							}
+						    	if (iINPT == 0)
+						        	{
+						        		str.Format("%5u%5u%5u%5u%5u%5u", cvor1, cvor1, cvor1, cvor1, cvor1, cvor1);
+						        
+						        	}
+						    	else
+						    	   {
+						    	   	 str.Format("%10u%10u%10u%10u%10u%10u", cvor1, cvor1, cvor1, cvor1, cvor1, cvor1);
+						    	   }
+								file->WriteString(str);
 							/*
 							UINT q=0;
 							for(k=0;k<uNQP;k++)
@@ -845,7 +874,7 @@ UINT CModelData::ExportPAKPT_Loads(CStdioFile* file, int iINPT)
 							*/
 					/*		if (iINPT == 0)
 							{*/
-								str.Format("%5d%5d\n", sl.m_uSl_funcID, sl.m_uAddI_fnc[0]);
+								str.Format("%10d%5d\n", sl.m_uSl_funcID, sl.m_uAddI_fnc[0]);
 						/*	}
 							else
 							{
@@ -924,14 +953,14 @@ UINT CModelData::ExportPAKPT_Loads(CStdioFile* file, int iINPT)
 												  }
 											  }
 											  file->WriteString(str);
-											  /*if (iINPT == 0)
-											  { */
+											  if (iINPT == 0)
+											  {
 												  str.Format("%5d%5d\n", sl.m_uSl_funcID, sl.m_uAddI_fnc[0]);
-											  /*}
+											  }
 											  else
 											  {
-												  str.Format("%10d%10.6f%10.6f%10.6f%10.6f\n", sl.m_uSl_funcID, sl.m_dValue[0], sl.m_dValue[0], sl.m_dValue[0], sl.m_dValue[0]);
-											  }*/
+												  str.Format("%10d%10d\n", sl.m_uSl_funcID, sl.m_uAddI_fnc[0]);
+											  }
 											  file->WriteString(str);
 						}
 							break;
@@ -966,8 +995,8 @@ UINT CModelData::ExportPAKPT_Loads(CStdioFile* file, int iINPT)
 												  if (cvor != 0)
 												  {
 	//												  nn = m_NodArray[el.m_uNode[surface_nodes_tetra[j][k]]];
-													  nn = m_NodArray[cvor-1];
-//													  str.Format("%10u%10u%10.4f\n", cvor, nn, nn.m_dZ);
+													  nn = m_NodArray[cvor - 1];
+													  str.Format("%10u%10u%10.4f\n", cvor, nn, nn.m_dZ);
 													  //			  tez[0] = tez[0] + nn.m_dX;
 													  //			  tez[1] = tez[1] + nn.m_dY;
  													  tez[2] = tez[2] + nn.m_dZ;
@@ -984,35 +1013,35 @@ UINT CModelData::ExportPAKPT_Loads(CStdioFile* file, int iINPT)
 											  IPROM = 0;
 											  IFH = sl.m_uSl_funcID;
 											  IFTOK = sl.m_uAddI_fnc[0];
-											  if (sl.m_uAddI_fnc[0] == 2)
+										/*	  if (sl.m_uAddI_fnc[0] == 2)
 											  {
-												  IPROM = 2;
-												  IFH = 1000001;
-												  IFTOK = 3;
-											  }
-											  else if (sl.m_uAddI_fnc[0] == 4)
+												  IPROM = 3;
+												  IFH = 1003001;
+												  IFTOK = 4;  // funkcija temperature vazduha - neokvasen element. za okvasen element se radi Bofang
+											  }  */
+									/*		  else if (sl.m_uAddI_fnc[0] == 4)  // okvasen/neokvasen element
 											  {
 												  IPROM = 3;
 												  IFTOK = 3;
 												  IFH = 1002001;
 											  }
-											  else if (sl.m_uAddI_fnc[0] == 6)
+											  else if (sl.m_uAddI_fnc[0] == 6)  // donja voda
 											  {
 												  IPROM = 2;
 												  IFTOK = 3;
 												  IFH = 2000001;
 											  }
-											  else if (sl.m_uAddI_fnc[0] == 8)
+											  else if (sl.m_uAddI_fnc[0] == 8)  // donja voda
 											  {
 												  IPROM = 3;
 												  IFH = 2002001;
 												  IFTOK = 3;
-											  }
+											  }  
 											  else if (sl.m_uAddI_fnc[0] == 10)
 											  {
 												  IFH = 2;
 												  IFTOK = 3;
-											  }  
+											  }   */
 											  if (iINPT == 0)
 											  {
 											     str.Format("%10u%5u%5d%10.4f\n", IFH, IFTOK, IPROM, tez[2]);
@@ -1061,7 +1090,7 @@ UINT CModelData::ExportPAKPT_Loads(CStdioFile* file, int iINPT)
 										}
 									file->WriteString(str);
 								}
-								/*
+									/*
 								UINT q=0;
 								for(k=0;k<uNQP;k++)
 								if(HFfuncs[k]==sl.m_uSl_funcID) break;
@@ -1690,9 +1719,9 @@ UINT CModelData::ExportPAKPT_MatModels(CStdioFile* file)
 	for(i=0;i<(UINT)m_MaterialsArray.GetSize();i++)
 	{
 //		pstr.Format("%10.4.1e%10.4.1e%10.4.1e%10.4.1e%10.4.1e%10.4.1e%10.4.1e%10.4.1e%5u%10.4.1e\n",
-		pstr.Format("%10.4.2e%10.4.2e%10.4.2e%10.4.2e%10.4.2e\n",
+		pstr.Format("%10.4.2e%10.4.2e%10.4.2e%10.4.2e%10.4.2e%5d\n",
 			m_MaterialsArray[i].m_dK[0],m_MaterialsArray[i].m_dK[0],m_MaterialsArray[i].m_dK[0],
-			m_MaterialsArray[i].m_dThermal_cap, m_MaterialsArray[i].m_dDensity);
+			m_MaterialsArray[i].m_dThermal_cap, m_MaterialsArray[i].m_dDensity,i+1);
 		file->WriteString(pstr);
 /*		pstr.Format("%10.4.2e%10.4.2e%10.4.2e%10.4.2e%10.4.2e%10.4.2e%10.4.2e%10.4.2e%5u%10.4.2e\n",
 			m_MaterialsArray[i].m_dK[0], m_MaterialsArray[i].m_dK[0], m_MaterialsArray[i].m_dK[0],

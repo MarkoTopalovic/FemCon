@@ -313,70 +313,70 @@ ModelData.cpp(2096): warning C4996: 'sscanf': This function or variable may be u
 ModelData.cpp(2106): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
   PAKEExp.cpp
-c:\femcon2017\femcon\PAKEExp.h(5): warning C4005: 'CardH3': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(5): note: see previous definition of 'CardH3'
-c:\femcon2017\femcon\PAKEExp.h(6): warning C4005: 'CardV3': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(6): note: see previous definition of 'CardV3'
-c:\femcon2017\femcon\PAKEExp.h(7): warning C4005: 'CardH4': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(7): note: see previous definition of 'CardH4'
-c:\femcon2017\femcon\PAKEExp.h(8): warning C4005: 'CardV4': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(8): note: see previous definition of 'CardV4'
-c:\femcon2017\femcon\PAKEExp.h(9): warning C4005: 'CardH5': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(9): note: see previous definition of 'CardH5'
-c:\femcon2017\femcon\PAKEExp.h(10): warning C4005: 'CardV5': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(10): note: see previous definition of 'CardV5'
-c:\femcon2017\femcon\PAKEExp.h(11): warning C4005: 'CardH6': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(11): note: see previous definition of 'CardH6'
-c:\femcon2017\femcon\PAKEExp.h(16): warning C4005: 'CardH7': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(13): note: see previous definition of 'CardH7'
-c:\femcon2017\femcon\PAKEExp.h(17): warning C4005: 'CardV7': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(14): note: see previous definition of 'CardV7'
-c:\femcon2017\femcon\PAKEExp.h(20): warning C4005: 'CardH8': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(17): note: see previous definition of 'CardH8'
-c:\femcon2017\femcon\PAKEExp.h(21): warning C4005: 'CardV8': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(18): note: see previous definition of 'CardV8'
-c:\femcon2017\femcon\PAKEExp.h(22): warning C4005: 'CardH8_2': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(21): note: see previous definition of 'CardH8_2'
-c:\femcon2017\femcon\PAKEExp.h(30): warning C4005: 'CardH8_3': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(23): note: see previous definition of 'CardH8_3'
-c:\femcon2017\femcon\PAKEExp.h(39): warning C4005: 'CardH9': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(25): note: see previous definition of 'CardH9'
-c:\femcon2017\femcon\PAKEExp.h(40): warning C4005: 'CardV9': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(26): note: see previous definition of 'CardV9'
-c:\femcon2017\femcon\PAKEExp.h(41): warning C4005: 'CardH9_1': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(27): note: see previous definition of 'CardH9_1'
-c:\femcon2017\femcon\PAKEExp.h(42): warning C4005: 'CardV9_1': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(28): note: see previous definition of 'CardV9_1'
-c:\femcon2017\femcon\PAKEExp.h(57): warning C4005: 'CardH10': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(29): note: see previous definition of 'CardH10'
-c:\femcon2017\femcon\PAKEExp.h(58): warning C4005: 'CardV10': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(30): note: see previous definition of 'CardV10'
-c:\femcon2017\femcon\PAKEExp.h(66): warning C4005: 'CardH11': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(38): note: see previous definition of 'CardH11'
-c:\femcon2017\femcon\PAKEExp.h(67): warning C4005: 'CardV11': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(39): note: see previous definition of 'CardV11'
-c:\femcon2017\femcon\PAKEExp.h(70): warning C4005: 'CardH12': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(42): note: see previous definition of 'CardH12'
-c:\femcon2017\femcon\PAKEExp.h(71): warning C4005: 'CardV12': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(43): note: see previous definition of 'CardV12'
-c:\femcon2017\femcon\PAKEExp.h(73): warning C4005: 'CardH12_1': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(45): note: see previous definition of 'CardH12_1'
-c:\femcon2017\femcon\PAKEExp.h(79): warning C4005: 'CardH12_2': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(52): note: see previous definition of 'CardH12_2'
-c:\femcon2017\femcon\PAKEExp.h(97): warning C4005: 'CardH12_5': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(60): note: see previous definition of 'CardH12_5'
-c:\femcon2017\femcon\PAKEExp.h(107): warning C4005: 'CardH12_6': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(68): note: see previous definition of 'CardH12_6'
-c:\femcon2017\femcon\PAKEExp.h(110): warning C4005: 'CardH13_2': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(112): note: see previous definition of 'CardH13_2'
-c:\femcon2017\femcon\PAKEExp.h(114): warning C4005: 'CardH13_3': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(134): note: see previous definition of 'CardH13_3'
-c:\femcon2017\femcon\PAKEExp.h(131): warning C4005: 'NULAZ': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(222): note: see previous definition of 'NULAZ'
-c:\femcon2017\femcon\PAKEExp.h(138): warning C4005: 'MAXIT': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(258): note: see previous definition of 'MAXIT'
-c:\femcon2017\femcon\PAKEExp.h(143): warning C4005: 'IREST': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(246): note: see previous definition of 'IREST'
+e:\femcon\femcon\PAKEExp.h(5): warning C4005: 'CardH3': macro redefinition
+  e:\femcon\femcon\PAKExp.h(5): note: see previous definition of 'CardH3'
+e:\femcon\femcon\PAKEExp.h(6): warning C4005: 'CardV3': macro redefinition
+  e:\femcon\femcon\PAKExp.h(6): note: see previous definition of 'CardV3'
+e:\femcon\femcon\PAKEExp.h(7): warning C4005: 'CardH4': macro redefinition
+  e:\femcon\femcon\PAKExp.h(7): note: see previous definition of 'CardH4'
+e:\femcon\femcon\PAKEExp.h(8): warning C4005: 'CardV4': macro redefinition
+  e:\femcon\femcon\PAKExp.h(8): note: see previous definition of 'CardV4'
+e:\femcon\femcon\PAKEExp.h(9): warning C4005: 'CardH5': macro redefinition
+  e:\femcon\femcon\PAKExp.h(9): note: see previous definition of 'CardH5'
+e:\femcon\femcon\PAKEExp.h(10): warning C4005: 'CardV5': macro redefinition
+  e:\femcon\femcon\PAKExp.h(10): note: see previous definition of 'CardV5'
+e:\femcon\femcon\PAKEExp.h(11): warning C4005: 'CardH6': macro redefinition
+  e:\femcon\femcon\PAKExp.h(11): note: see previous definition of 'CardH6'
+e:\femcon\femcon\PAKEExp.h(16): warning C4005: 'CardH7': macro redefinition
+  e:\femcon\femcon\PAKExp.h(13): note: see previous definition of 'CardH7'
+e:\femcon\femcon\PAKEExp.h(17): warning C4005: 'CardV7': macro redefinition
+  e:\femcon\femcon\PAKExp.h(14): note: see previous definition of 'CardV7'
+e:\femcon\femcon\PAKEExp.h(20): warning C4005: 'CardH8': macro redefinition
+  e:\femcon\femcon\PAKExp.h(17): note: see previous definition of 'CardH8'
+e:\femcon\femcon\PAKEExp.h(21): warning C4005: 'CardV8': macro redefinition
+  e:\femcon\femcon\PAKExp.h(18): note: see previous definition of 'CardV8'
+e:\femcon\femcon\PAKEExp.h(22): warning C4005: 'CardH8_2': macro redefinition
+  e:\femcon\femcon\PAKExp.h(21): note: see previous definition of 'CardH8_2'
+e:\femcon\femcon\PAKEExp.h(30): warning C4005: 'CardH8_3': macro redefinition
+  e:\femcon\femcon\PAKExp.h(23): note: see previous definition of 'CardH8_3'
+e:\femcon\femcon\PAKEExp.h(39): warning C4005: 'CardH9': macro redefinition
+  e:\femcon\femcon\PAKExp.h(25): note: see previous definition of 'CardH9'
+e:\femcon\femcon\PAKEExp.h(40): warning C4005: 'CardV9': macro redefinition
+  e:\femcon\femcon\PAKExp.h(26): note: see previous definition of 'CardV9'
+e:\femcon\femcon\PAKEExp.h(41): warning C4005: 'CardH9_1': macro redefinition
+  e:\femcon\femcon\PAKExp.h(27): note: see previous definition of 'CardH9_1'
+e:\femcon\femcon\PAKEExp.h(42): warning C4005: 'CardV9_1': macro redefinition
+  e:\femcon\femcon\PAKExp.h(28): note: see previous definition of 'CardV9_1'
+e:\femcon\femcon\PAKEExp.h(57): warning C4005: 'CardH10': macro redefinition
+  e:\femcon\femcon\PAKExp.h(29): note: see previous definition of 'CardH10'
+e:\femcon\femcon\PAKEExp.h(58): warning C4005: 'CardV10': macro redefinition
+  e:\femcon\femcon\PAKExp.h(30): note: see previous definition of 'CardV10'
+e:\femcon\femcon\PAKEExp.h(66): warning C4005: 'CardH11': macro redefinition
+  e:\femcon\femcon\PAKExp.h(38): note: see previous definition of 'CardH11'
+e:\femcon\femcon\PAKEExp.h(67): warning C4005: 'CardV11': macro redefinition
+  e:\femcon\femcon\PAKExp.h(39): note: see previous definition of 'CardV11'
+e:\femcon\femcon\PAKEExp.h(70): warning C4005: 'CardH12': macro redefinition
+  e:\femcon\femcon\PAKExp.h(42): note: see previous definition of 'CardH12'
+e:\femcon\femcon\PAKEExp.h(71): warning C4005: 'CardV12': macro redefinition
+  e:\femcon\femcon\PAKExp.h(43): note: see previous definition of 'CardV12'
+e:\femcon\femcon\PAKEExp.h(73): warning C4005: 'CardH12_1': macro redefinition
+  e:\femcon\femcon\PAKExp.h(45): note: see previous definition of 'CardH12_1'
+e:\femcon\femcon\PAKEExp.h(79): warning C4005: 'CardH12_2': macro redefinition
+  e:\femcon\femcon\PAKExp.h(52): note: see previous definition of 'CardH12_2'
+e:\femcon\femcon\PAKEExp.h(97): warning C4005: 'CardH12_5': macro redefinition
+  e:\femcon\femcon\PAKExp.h(60): note: see previous definition of 'CardH12_5'
+e:\femcon\femcon\PAKEExp.h(107): warning C4005: 'CardH12_6': macro redefinition
+  e:\femcon\femcon\PAKExp.h(68): note: see previous definition of 'CardH12_6'
+e:\femcon\femcon\PAKEExp.h(110): warning C4005: 'CardH13_2': macro redefinition
+  e:\femcon\femcon\PAKExp.h(112): note: see previous definition of 'CardH13_2'
+e:\femcon\femcon\PAKEExp.h(114): warning C4005: 'CardH13_3': macro redefinition
+  e:\femcon\femcon\PAKExp.h(134): note: see previous definition of 'CardH13_3'
+e:\femcon\femcon\PAKEExp.h(131): warning C4005: 'NULAZ': macro redefinition
+  e:\femcon\femcon\PAKExp.h(222): note: see previous definition of 'NULAZ'
+e:\femcon\femcon\PAKEExp.h(138): warning C4005: 'MAXIT': macro redefinition
+  e:\femcon\femcon\PAKExp.h(258): note: see previous definition of 'MAXIT'
+e:\femcon\femcon\PAKEExp.h(143): warning C4005: 'IREST': macro redefinition
+  e:\femcon\femcon\PAKExp.h(246): note: see previous definition of 'IREST'
 PAKEExp.cpp(37): warning C4244: '=': conversion from 'INT_PTR' to 'UINT', possible loss of data
 PAKEExp.cpp(52): warning C4244: '=': conversion from 'ULONGLONG' to 'long', possible loss of data
 PAKEExp.cpp(75): warning C4018: '<=': signed/unsigned mismatch
@@ -427,78 +427,78 @@ PAKExp.cpp(3023): warning C4244: '=': conversion from 'INT_PTR' to 'UINT', possi
 PAKExp.cpp(2636): warning C4101: 'ima': unreferenced local variable
   PakExpOpt.cpp
   PAKFExp.cpp
-c:\femcon2017\femcon\PAKFExp.h(92): warning C4005: 'MAXIT': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(258): note: see previous definition of 'MAXIT'
-c:\femcon2017\femcon\PAKFExp.h(98): warning C4005: 'IREST': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(246): note: see previous definition of 'IREST'
+e:\femcon\femcon\PAKFExp.h(92): warning C4005: 'MAXIT': macro redefinition
+  e:\femcon\femcon\PAKExp.h(258): note: see previous definition of 'MAXIT'
+e:\femcon\femcon\PAKFExp.h(98): warning C4005: 'IREST': macro redefinition
+  e:\femcon\femcon\PAKExp.h(246): note: see previous definition of 'IREST'
 PAKFExp.cpp(54): warning C4244: '=': conversion from 'ULONGLONG' to 'long', possible loss of data
 PAKFExp.cpp(426): warning C4244: '=': conversion from 'INT_PTR' to 'UINT', possible loss of data
   PAKFOptions.cpp
   PAKMExp.cpp
-c:\femcon2017\femcon\PAKMExp.h(5): warning C4005: 'CardH3': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(5): note: see previous definition of 'CardH3'
-c:\femcon2017\femcon\PAKMExp.h(6): warning C4005: 'CardV3': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(6): note: see previous definition of 'CardV3'
-c:\femcon2017\femcon\PAKMExp.h(7): warning C4005: 'CardH4': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(7): note: see previous definition of 'CardH4'
-c:\femcon2017\femcon\PAKMExp.h(8): warning C4005: 'CardV4': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(8): note: see previous definition of 'CardV4'
-c:\femcon2017\femcon\PAKMExp.h(9): warning C4005: 'CardH5': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(9): note: see previous definition of 'CardH5'
-c:\femcon2017\femcon\PAKMExp.h(10): warning C4005: 'CardV5': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(10): note: see previous definition of 'CardV5'
-c:\femcon2017\femcon\PAKMExp.h(11): warning C4005: 'CardH6': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(11): note: see previous definition of 'CardH6'
-c:\femcon2017\femcon\PAKMExp.h(16): warning C4005: 'CardH7': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(13): note: see previous definition of 'CardH7'
-c:\femcon2017\femcon\PAKMExp.h(17): warning C4005: 'CardV7': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(14): note: see previous definition of 'CardV7'
-c:\femcon2017\femcon\PAKMExp.h(20): warning C4005: 'CardH8': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(17): note: see previous definition of 'CardH8'
-c:\femcon2017\femcon\PAKMExp.h(21): warning C4005: 'CardV8': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(18): note: see previous definition of 'CardV8'
-c:\femcon2017\femcon\PAKMExp.h(22): warning C4005: 'CardH8_2': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(21): note: see previous definition of 'CardH8_2'
-c:\femcon2017\femcon\PAKMExp.h(30): warning C4005: 'CardH8_3': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(23): note: see previous definition of 'CardH8_3'
-c:\femcon2017\femcon\PAKMExp.h(39): warning C4005: 'CardH9': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(25): note: see previous definition of 'CardH9'
-c:\femcon2017\femcon\PAKMExp.h(40): warning C4005: 'CardV9': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(26): note: see previous definition of 'CardV9'
-c:\femcon2017\femcon\PAKMExp.h(41): warning C4005: 'CardH9_1': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(27): note: see previous definition of 'CardH9_1'
-c:\femcon2017\femcon\PAKMExp.h(42): warning C4005: 'CardV9_1': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(28): note: see previous definition of 'CardV9_1'
-c:\femcon2017\femcon\PAKMExp.h(57): warning C4005: 'CardH10': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(29): note: see previous definition of 'CardH10'
-c:\femcon2017\femcon\PAKMExp.h(58): warning C4005: 'CardV10': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(30): note: see previous definition of 'CardV10'
-c:\femcon2017\femcon\PAKMExp.h(66): warning C4005: 'CardH11': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(38): note: see previous definition of 'CardH11'
-c:\femcon2017\femcon\PAKMExp.h(67): warning C4005: 'CardV11': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(39): note: see previous definition of 'CardV11'
-c:\femcon2017\femcon\PAKMExp.h(70): warning C4005: 'CardH12': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(42): note: see previous definition of 'CardH12'
-c:\femcon2017\femcon\PAKMExp.h(71): warning C4005: 'CardV12': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(43): note: see previous definition of 'CardV12'
-c:\femcon2017\femcon\PAKMExp.h(73): warning C4005: 'CardH12_1': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(45): note: see previous definition of 'CardH12_1'
-c:\femcon2017\femcon\PAKMExp.h(79): warning C4005: 'CardH12_2': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(52): note: see previous definition of 'CardH12_2'
-c:\femcon2017\femcon\PAKMExp.h(97): warning C4005: 'CardH12_5': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(60): note: see previous definition of 'CardH12_5'
-c:\femcon2017\femcon\PAKMExp.h(107): warning C4005: 'CardH12_6': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(68): note: see previous definition of 'CardH12_6'
-c:\femcon2017\femcon\PAKMExp.h(110): warning C4005: 'CardH13_2': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(112): note: see previous definition of 'CardH13_2'
-c:\femcon2017\femcon\PAKMExp.h(114): warning C4005: 'CardH13_3': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(134): note: see previous definition of 'CardH13_3'
-c:\femcon2017\femcon\PAKMExp.h(131): warning C4005: 'NULAZ': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(222): note: see previous definition of 'NULAZ'
-c:\femcon2017\femcon\PAKMExp.h(138): warning C4005: 'MAXIT': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(258): note: see previous definition of 'MAXIT'
-c:\femcon2017\femcon\PAKMExp.h(143): warning C4005: 'IREST': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(246): note: see previous definition of 'IREST'
+e:\femcon\femcon\PAKMExp.h(5): warning C4005: 'CardH3': macro redefinition
+  e:\femcon\femcon\PAKExp.h(5): note: see previous definition of 'CardH3'
+e:\femcon\femcon\PAKMExp.h(6): warning C4005: 'CardV3': macro redefinition
+  e:\femcon\femcon\PAKExp.h(6): note: see previous definition of 'CardV3'
+e:\femcon\femcon\PAKMExp.h(7): warning C4005: 'CardH4': macro redefinition
+  e:\femcon\femcon\PAKExp.h(7): note: see previous definition of 'CardH4'
+e:\femcon\femcon\PAKMExp.h(8): warning C4005: 'CardV4': macro redefinition
+  e:\femcon\femcon\PAKExp.h(8): note: see previous definition of 'CardV4'
+e:\femcon\femcon\PAKMExp.h(9): warning C4005: 'CardH5': macro redefinition
+  e:\femcon\femcon\PAKExp.h(9): note: see previous definition of 'CardH5'
+e:\femcon\femcon\PAKMExp.h(10): warning C4005: 'CardV5': macro redefinition
+  e:\femcon\femcon\PAKExp.h(10): note: see previous definition of 'CardV5'
+e:\femcon\femcon\PAKMExp.h(11): warning C4005: 'CardH6': macro redefinition
+  e:\femcon\femcon\PAKExp.h(11): note: see previous definition of 'CardH6'
+e:\femcon\femcon\PAKMExp.h(16): warning C4005: 'CardH7': macro redefinition
+  e:\femcon\femcon\PAKExp.h(13): note: see previous definition of 'CardH7'
+e:\femcon\femcon\PAKMExp.h(17): warning C4005: 'CardV7': macro redefinition
+  e:\femcon\femcon\PAKExp.h(14): note: see previous definition of 'CardV7'
+e:\femcon\femcon\PAKMExp.h(20): warning C4005: 'CardH8': macro redefinition
+  e:\femcon\femcon\PAKExp.h(17): note: see previous definition of 'CardH8'
+e:\femcon\femcon\PAKMExp.h(21): warning C4005: 'CardV8': macro redefinition
+  e:\femcon\femcon\PAKExp.h(18): note: see previous definition of 'CardV8'
+e:\femcon\femcon\PAKMExp.h(22): warning C4005: 'CardH8_2': macro redefinition
+  e:\femcon\femcon\PAKExp.h(21): note: see previous definition of 'CardH8_2'
+e:\femcon\femcon\PAKMExp.h(30): warning C4005: 'CardH8_3': macro redefinition
+  e:\femcon\femcon\PAKExp.h(23): note: see previous definition of 'CardH8_3'
+e:\femcon\femcon\PAKMExp.h(39): warning C4005: 'CardH9': macro redefinition
+  e:\femcon\femcon\PAKExp.h(25): note: see previous definition of 'CardH9'
+e:\femcon\femcon\PAKMExp.h(40): warning C4005: 'CardV9': macro redefinition
+  e:\femcon\femcon\PAKExp.h(26): note: see previous definition of 'CardV9'
+e:\femcon\femcon\PAKMExp.h(41): warning C4005: 'CardH9_1': macro redefinition
+  e:\femcon\femcon\PAKExp.h(27): note: see previous definition of 'CardH9_1'
+e:\femcon\femcon\PAKMExp.h(42): warning C4005: 'CardV9_1': macro redefinition
+  e:\femcon\femcon\PAKExp.h(28): note: see previous definition of 'CardV9_1'
+e:\femcon\femcon\PAKMExp.h(57): warning C4005: 'CardH10': macro redefinition
+  e:\femcon\femcon\PAKExp.h(29): note: see previous definition of 'CardH10'
+e:\femcon\femcon\PAKMExp.h(58): warning C4005: 'CardV10': macro redefinition
+  e:\femcon\femcon\PAKExp.h(30): note: see previous definition of 'CardV10'
+e:\femcon\femcon\PAKMExp.h(66): warning C4005: 'CardH11': macro redefinition
+  e:\femcon\femcon\PAKExp.h(38): note: see previous definition of 'CardH11'
+e:\femcon\femcon\PAKMExp.h(67): warning C4005: 'CardV11': macro redefinition
+  e:\femcon\femcon\PAKExp.h(39): note: see previous definition of 'CardV11'
+e:\femcon\femcon\PAKMExp.h(70): warning C4005: 'CardH12': macro redefinition
+  e:\femcon\femcon\PAKExp.h(42): note: see previous definition of 'CardH12'
+e:\femcon\femcon\PAKMExp.h(71): warning C4005: 'CardV12': macro redefinition
+  e:\femcon\femcon\PAKExp.h(43): note: see previous definition of 'CardV12'
+e:\femcon\femcon\PAKMExp.h(73): warning C4005: 'CardH12_1': macro redefinition
+  e:\femcon\femcon\PAKExp.h(45): note: see previous definition of 'CardH12_1'
+e:\femcon\femcon\PAKMExp.h(79): warning C4005: 'CardH12_2': macro redefinition
+  e:\femcon\femcon\PAKExp.h(52): note: see previous definition of 'CardH12_2'
+e:\femcon\femcon\PAKMExp.h(97): warning C4005: 'CardH12_5': macro redefinition
+  e:\femcon\femcon\PAKExp.h(60): note: see previous definition of 'CardH12_5'
+e:\femcon\femcon\PAKMExp.h(107): warning C4005: 'CardH12_6': macro redefinition
+  e:\femcon\femcon\PAKExp.h(68): note: see previous definition of 'CardH12_6'
+e:\femcon\femcon\PAKMExp.h(110): warning C4005: 'CardH13_2': macro redefinition
+  e:\femcon\femcon\PAKExp.h(112): note: see previous definition of 'CardH13_2'
+e:\femcon\femcon\PAKMExp.h(114): warning C4005: 'CardH13_3': macro redefinition
+  e:\femcon\femcon\PAKExp.h(134): note: see previous definition of 'CardH13_3'
+e:\femcon\femcon\PAKMExp.h(131): warning C4005: 'NULAZ': macro redefinition
+  e:\femcon\femcon\PAKExp.h(222): note: see previous definition of 'NULAZ'
+e:\femcon\femcon\PAKMExp.h(138): warning C4005: 'MAXIT': macro redefinition
+  e:\femcon\femcon\PAKExp.h(258): note: see previous definition of 'MAXIT'
+e:\femcon\femcon\PAKMExp.h(143): warning C4005: 'IREST': macro redefinition
+  e:\femcon\femcon\PAKExp.h(246): note: see previous definition of 'IREST'
 PAKMExp.cpp(37): warning C4244: '=': conversion from 'INT_PTR' to 'UINT', possible loss of data
 PAKMExp.cpp(52): warning C4244: '=': conversion from 'ULONGLONG' to 'long', possible loss of data
 PAKMExp.cpp(75): warning C4018: '<=': signed/unsigned mismatch
@@ -518,128 +518,128 @@ PakOptValues.cpp(43): warning C4800: 'BOOL': forcing value to bool 'true' or 'fa
 PakOptValues.cpp(67): warning C4244: 'return': conversion from 'INT_PTR' to 'int', possible loss of data
 PakOptValues.cpp(185): warning C4244: 'return': conversion from 'INT_PTR' to 'int', possible loss of data
   PAKPExp.cpp
-c:\femcon2017\femcon\PAKPExp.h(5): warning C4005: 'CardH3': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(5): note: see previous definition of 'CardH3'
-c:\femcon2017\femcon\PAKPExp.h(6): warning C4005: 'CardV3': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(6): note: see previous definition of 'CardV3'
-c:\femcon2017\femcon\PAKPExp.h(7): warning C4005: 'CardH4': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(7): note: see previous definition of 'CardH4'
-c:\femcon2017\femcon\PAKPExp.h(8): warning C4005: 'CardV4': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(8): note: see previous definition of 'CardV4'
-c:\femcon2017\femcon\PAKPExp.h(9): warning C4005: 'CardH5': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(9): note: see previous definition of 'CardH5'
-c:\femcon2017\femcon\PAKPExp.h(10): warning C4005: 'CardV5': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(10): note: see previous definition of 'CardV5'
-c:\femcon2017\femcon\PAKPExp.h(11): warning C4005: 'CardH6': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(11): note: see previous definition of 'CardH6'
-c:\femcon2017\femcon\PAKPExp.h(12): warning C4005: 'CardV6': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(12): note: see previous definition of 'CardV6'
-c:\femcon2017\femcon\PAKPExp.h(13): warning C4005: 'CardH7': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(13): note: see previous definition of 'CardH7'
-c:\femcon2017\femcon\PAKPExp.h(14): warning C4005: 'CardV7': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(14): note: see previous definition of 'CardV7'
-c:\femcon2017\femcon\PAKPExp.h(17): warning C4005: 'CardH8': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(17): note: see previous definition of 'CardH8'
-c:\femcon2017\femcon\PAKPExp.h(18): warning C4005: 'CardV8': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(18): note: see previous definition of 'CardV8'
-c:\femcon2017\femcon\PAKPExp.h(19): warning C4005: 'CardH8_2': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(21): note: see previous definition of 'CardH8_2'
-c:\femcon2017\femcon\PAKPExp.h(27): warning C4005: 'CardH8_3': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(23): note: see previous definition of 'CardH8_3'
-c:\femcon2017\femcon\PAKPExp.h(36): warning C4005: 'CardH9': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(25): note: see previous definition of 'CardH9'
-c:\femcon2017\femcon\PAKPExp.h(52): warning C4005: 'CardH11': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(38): note: see previous definition of 'CardH11'
-c:\femcon2017\femcon\PAKPExp.h(53): warning C4005: 'CardV11': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(39): note: see previous definition of 'CardV11'
-c:\femcon2017\femcon\PAKPExp.h(66): warning C4005: 'CardH12': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(42): note: see previous definition of 'CardH12'
-c:\femcon2017\femcon\PAKPExp.h(67): warning C4005: 'CardV12': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(43): note: see previous definition of 'CardV12'
-c:\femcon2017\femcon\PAKPExp.h(68): warning C4005: 'CardH12_1': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(45): note: see previous definition of 'CardH12_1'
-c:\femcon2017\femcon\PAKPExp.h(78): warning C4005: 'CardH13': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(105): note: see previous definition of 'CardH13'
-c:\femcon2017\femcon\PAKPExp.h(79): warning C4005: 'CardV13': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(106): note: see previous definition of 'CardV13'
-c:\femcon2017\femcon\PAKPExp.h(80): warning C4005: 'CardH13_1': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(107): note: see previous definition of 'CardH13_1'
-c:\femcon2017\femcon\PAKPExp.h(90): warning C4005: 'CardV14_1_a_1': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(177): note: see previous definition of 'CardV14_1_a_1'
-c:\femcon2017\femcon\PAKPExp.h(92): warning C4005: 'CardV14_1_b_1': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(179): note: see previous definition of 'CardV14_1_b_1'
-c:\femcon2017\femcon\PAKPExp.h(96): warning C4005: 'CardH15': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(182): note: see previous definition of 'CardH15'
-c:\femcon2017\femcon\PAKPExp.h(97): warning C4005: 'CardV15': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(183): note: see previous definition of 'CardV15'
-c:\femcon2017\femcon\PAKPExp.h(113): warning C4005: 'MAXIT': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(258): note: see previous definition of 'MAXIT'
+e:\femcon\femcon\PAKPExp.h(5): warning C4005: 'CardH3': macro redefinition
+  e:\femcon\femcon\PAKExp.h(5): note: see previous definition of 'CardH3'
+e:\femcon\femcon\PAKPExp.h(6): warning C4005: 'CardV3': macro redefinition
+  e:\femcon\femcon\PAKExp.h(6): note: see previous definition of 'CardV3'
+e:\femcon\femcon\PAKPExp.h(7): warning C4005: 'CardH4': macro redefinition
+  e:\femcon\femcon\PAKExp.h(7): note: see previous definition of 'CardH4'
+e:\femcon\femcon\PAKPExp.h(8): warning C4005: 'CardV4': macro redefinition
+  e:\femcon\femcon\PAKExp.h(8): note: see previous definition of 'CardV4'
+e:\femcon\femcon\PAKPExp.h(9): warning C4005: 'CardH5': macro redefinition
+  e:\femcon\femcon\PAKExp.h(9): note: see previous definition of 'CardH5'
+e:\femcon\femcon\PAKPExp.h(10): warning C4005: 'CardV5': macro redefinition
+  e:\femcon\femcon\PAKExp.h(10): note: see previous definition of 'CardV5'
+e:\femcon\femcon\PAKPExp.h(11): warning C4005: 'CardH6': macro redefinition
+  e:\femcon\femcon\PAKExp.h(11): note: see previous definition of 'CardH6'
+e:\femcon\femcon\PAKPExp.h(12): warning C4005: 'CardV6': macro redefinition
+  e:\femcon\femcon\PAKExp.h(12): note: see previous definition of 'CardV6'
+e:\femcon\femcon\PAKPExp.h(13): warning C4005: 'CardH7': macro redefinition
+  e:\femcon\femcon\PAKExp.h(13): note: see previous definition of 'CardH7'
+e:\femcon\femcon\PAKPExp.h(14): warning C4005: 'CardV7': macro redefinition
+  e:\femcon\femcon\PAKExp.h(14): note: see previous definition of 'CardV7'
+e:\femcon\femcon\PAKPExp.h(17): warning C4005: 'CardH8': macro redefinition
+  e:\femcon\femcon\PAKExp.h(17): note: see previous definition of 'CardH8'
+e:\femcon\femcon\PAKPExp.h(18): warning C4005: 'CardV8': macro redefinition
+  e:\femcon\femcon\PAKExp.h(18): note: see previous definition of 'CardV8'
+e:\femcon\femcon\PAKPExp.h(19): warning C4005: 'CardH8_2': macro redefinition
+  e:\femcon\femcon\PAKExp.h(21): note: see previous definition of 'CardH8_2'
+e:\femcon\femcon\PAKPExp.h(27): warning C4005: 'CardH8_3': macro redefinition
+  e:\femcon\femcon\PAKExp.h(23): note: see previous definition of 'CardH8_3'
+e:\femcon\femcon\PAKPExp.h(36): warning C4005: 'CardH9': macro redefinition
+  e:\femcon\femcon\PAKExp.h(25): note: see previous definition of 'CardH9'
+e:\femcon\femcon\PAKPExp.h(52): warning C4005: 'CardH11': macro redefinition
+  e:\femcon\femcon\PAKExp.h(38): note: see previous definition of 'CardH11'
+e:\femcon\femcon\PAKPExp.h(53): warning C4005: 'CardV11': macro redefinition
+  e:\femcon\femcon\PAKExp.h(39): note: see previous definition of 'CardV11'
+e:\femcon\femcon\PAKPExp.h(66): warning C4005: 'CardH12': macro redefinition
+  e:\femcon\femcon\PAKExp.h(42): note: see previous definition of 'CardH12'
+e:\femcon\femcon\PAKPExp.h(67): warning C4005: 'CardV12': macro redefinition
+  e:\femcon\femcon\PAKExp.h(43): note: see previous definition of 'CardV12'
+e:\femcon\femcon\PAKPExp.h(68): warning C4005: 'CardH12_1': macro redefinition
+  e:\femcon\femcon\PAKExp.h(45): note: see previous definition of 'CardH12_1'
+e:\femcon\femcon\PAKPExp.h(78): warning C4005: 'CardH13': macro redefinition
+  e:\femcon\femcon\PAKExp.h(105): note: see previous definition of 'CardH13'
+e:\femcon\femcon\PAKPExp.h(79): warning C4005: 'CardV13': macro redefinition
+  e:\femcon\femcon\PAKExp.h(106): note: see previous definition of 'CardV13'
+e:\femcon\femcon\PAKPExp.h(80): warning C4005: 'CardH13_1': macro redefinition
+  e:\femcon\femcon\PAKExp.h(107): note: see previous definition of 'CardH13_1'
+e:\femcon\femcon\PAKPExp.h(90): warning C4005: 'CardV14_1_a_1': macro redefinition
+  e:\femcon\femcon\PAKExp.h(177): note: see previous definition of 'CardV14_1_a_1'
+e:\femcon\femcon\PAKPExp.h(92): warning C4005: 'CardV14_1_b_1': macro redefinition
+  e:\femcon\femcon\PAKExp.h(179): note: see previous definition of 'CardV14_1_b_1'
+e:\femcon\femcon\PAKPExp.h(96): warning C4005: 'CardH15': macro redefinition
+  e:\femcon\femcon\PAKExp.h(182): note: see previous definition of 'CardH15'
+e:\femcon\femcon\PAKPExp.h(97): warning C4005: 'CardV15': macro redefinition
+  e:\femcon\femcon\PAKExp.h(183): note: see previous definition of 'CardV15'
+e:\femcon\femcon\PAKPExp.h(114): warning C4005: 'MAXIT': macro redefinition
+  e:\femcon\femcon\PAKExp.h(258): note: see previous definition of 'MAXIT'
 PAKPExp.cpp(37): warning C4244: '=': conversion from 'INT_PTR' to 'UINT', possible loss of data
 PAKPExp.cpp(64): warning C4244: '=': conversion from 'ULONGLONG' to 'long', possible loss of data
 PAKPExp.cpp(249): warning C4101: 'uNETIP': unreferenced local variable
 PAKPExp.cpp(249): warning C4101: 'uINDAX': unreferenced local variable
 PAKPExp.cpp(718): warning C4244: '=': conversion from 'INT_PTR' to 'UINT', possible loss of data
-PAKPExp.cpp(1120): warning C4244: '=': conversion from 'ULONGLONG' to 'long', possible loss of data
+PAKPExp.cpp(1119): warning C4244: '=': conversion from 'ULONGLONG' to 'long', possible loss of data
   PAKPTExp.cpp
-c:\femcon2017\femcon\PAKPExp.h(5): warning C4005: 'CardH3': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(5): note: see previous definition of 'CardH3'
-c:\femcon2017\femcon\PAKPExp.h(6): warning C4005: 'CardV3': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(6): note: see previous definition of 'CardV3'
-c:\femcon2017\femcon\PAKPExp.h(7): warning C4005: 'CardH4': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(7): note: see previous definition of 'CardH4'
-c:\femcon2017\femcon\PAKPExp.h(8): warning C4005: 'CardV4': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(8): note: see previous definition of 'CardV4'
-c:\femcon2017\femcon\PAKPExp.h(9): warning C4005: 'CardH5': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(9): note: see previous definition of 'CardH5'
-c:\femcon2017\femcon\PAKPExp.h(10): warning C4005: 'CardV5': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(10): note: see previous definition of 'CardV5'
-c:\femcon2017\femcon\PAKPExp.h(11): warning C4005: 'CardH6': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(11): note: see previous definition of 'CardH6'
-c:\femcon2017\femcon\PAKPExp.h(12): warning C4005: 'CardV6': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(12): note: see previous definition of 'CardV6'
-c:\femcon2017\femcon\PAKPExp.h(13): warning C4005: 'CardH7': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(13): note: see previous definition of 'CardH7'
-c:\femcon2017\femcon\PAKPExp.h(14): warning C4005: 'CardV7': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(14): note: see previous definition of 'CardV7'
-c:\femcon2017\femcon\PAKPExp.h(17): warning C4005: 'CardH8': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(17): note: see previous definition of 'CardH8'
-c:\femcon2017\femcon\PAKPExp.h(18): warning C4005: 'CardV8': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(18): note: see previous definition of 'CardV8'
-c:\femcon2017\femcon\PAKPExp.h(19): warning C4005: 'CardH8_2': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(21): note: see previous definition of 'CardH8_2'
-c:\femcon2017\femcon\PAKPExp.h(27): warning C4005: 'CardH8_3': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(23): note: see previous definition of 'CardH8_3'
-c:\femcon2017\femcon\PAKPExp.h(36): warning C4005: 'CardH9': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(25): note: see previous definition of 'CardH9'
-c:\femcon2017\femcon\PAKPExp.h(52): warning C4005: 'CardH11': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(38): note: see previous definition of 'CardH11'
-c:\femcon2017\femcon\PAKPExp.h(53): warning C4005: 'CardV11': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(39): note: see previous definition of 'CardV11'
-c:\femcon2017\femcon\PAKPExp.h(66): warning C4005: 'CardH12': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(42): note: see previous definition of 'CardH12'
-c:\femcon2017\femcon\PAKPExp.h(67): warning C4005: 'CardV12': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(43): note: see previous definition of 'CardV12'
-c:\femcon2017\femcon\PAKPExp.h(68): warning C4005: 'CardH12_1': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(45): note: see previous definition of 'CardH12_1'
-c:\femcon2017\femcon\PAKPExp.h(78): warning C4005: 'CardH13': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(105): note: see previous definition of 'CardH13'
-c:\femcon2017\femcon\PAKPExp.h(79): warning C4005: 'CardV13': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(106): note: see previous definition of 'CardV13'
-c:\femcon2017\femcon\PAKPExp.h(80): warning C4005: 'CardH13_1': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(107): note: see previous definition of 'CardH13_1'
-c:\femcon2017\femcon\PAKPExp.h(90): warning C4005: 'CardV14_1_a_1': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(177): note: see previous definition of 'CardV14_1_a_1'
-c:\femcon2017\femcon\PAKPExp.h(92): warning C4005: 'CardV14_1_b_1': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(179): note: see previous definition of 'CardV14_1_b_1'
-c:\femcon2017\femcon\PAKPExp.h(96): warning C4005: 'CardH15': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(182): note: see previous definition of 'CardH15'
-c:\femcon2017\femcon\PAKPExp.h(97): warning C4005: 'CardV15': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(183): note: see previous definition of 'CardV15'
-c:\femcon2017\femcon\PAKPExp.h(113): warning C4005: 'MAXIT': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(258): note: see previous definition of 'MAXIT'
+e:\femcon\femcon\PAKPExp.h(5): warning C4005: 'CardH3': macro redefinition
+  e:\femcon\femcon\PAKExp.h(5): note: see previous definition of 'CardH3'
+e:\femcon\femcon\PAKPExp.h(6): warning C4005: 'CardV3': macro redefinition
+  e:\femcon\femcon\PAKExp.h(6): note: see previous definition of 'CardV3'
+e:\femcon\femcon\PAKPExp.h(7): warning C4005: 'CardH4': macro redefinition
+  e:\femcon\femcon\PAKExp.h(7): note: see previous definition of 'CardH4'
+e:\femcon\femcon\PAKPExp.h(8): warning C4005: 'CardV4': macro redefinition
+  e:\femcon\femcon\PAKExp.h(8): note: see previous definition of 'CardV4'
+e:\femcon\femcon\PAKPExp.h(9): warning C4005: 'CardH5': macro redefinition
+  e:\femcon\femcon\PAKExp.h(9): note: see previous definition of 'CardH5'
+e:\femcon\femcon\PAKPExp.h(10): warning C4005: 'CardV5': macro redefinition
+  e:\femcon\femcon\PAKExp.h(10): note: see previous definition of 'CardV5'
+e:\femcon\femcon\PAKPExp.h(11): warning C4005: 'CardH6': macro redefinition
+  e:\femcon\femcon\PAKExp.h(11): note: see previous definition of 'CardH6'
+e:\femcon\femcon\PAKPExp.h(12): warning C4005: 'CardV6': macro redefinition
+  e:\femcon\femcon\PAKExp.h(12): note: see previous definition of 'CardV6'
+e:\femcon\femcon\PAKPExp.h(13): warning C4005: 'CardH7': macro redefinition
+  e:\femcon\femcon\PAKExp.h(13): note: see previous definition of 'CardH7'
+e:\femcon\femcon\PAKPExp.h(14): warning C4005: 'CardV7': macro redefinition
+  e:\femcon\femcon\PAKExp.h(14): note: see previous definition of 'CardV7'
+e:\femcon\femcon\PAKPExp.h(17): warning C4005: 'CardH8': macro redefinition
+  e:\femcon\femcon\PAKExp.h(17): note: see previous definition of 'CardH8'
+e:\femcon\femcon\PAKPExp.h(18): warning C4005: 'CardV8': macro redefinition
+  e:\femcon\femcon\PAKExp.h(18): note: see previous definition of 'CardV8'
+e:\femcon\femcon\PAKPExp.h(19): warning C4005: 'CardH8_2': macro redefinition
+  e:\femcon\femcon\PAKExp.h(21): note: see previous definition of 'CardH8_2'
+e:\femcon\femcon\PAKPExp.h(27): warning C4005: 'CardH8_3': macro redefinition
+  e:\femcon\femcon\PAKExp.h(23): note: see previous definition of 'CardH8_3'
+e:\femcon\femcon\PAKPExp.h(36): warning C4005: 'CardH9': macro redefinition
+  e:\femcon\femcon\PAKExp.h(25): note: see previous definition of 'CardH9'
+e:\femcon\femcon\PAKPExp.h(52): warning C4005: 'CardH11': macro redefinition
+  e:\femcon\femcon\PAKExp.h(38): note: see previous definition of 'CardH11'
+e:\femcon\femcon\PAKPExp.h(53): warning C4005: 'CardV11': macro redefinition
+  e:\femcon\femcon\PAKExp.h(39): note: see previous definition of 'CardV11'
+e:\femcon\femcon\PAKPExp.h(66): warning C4005: 'CardH12': macro redefinition
+  e:\femcon\femcon\PAKExp.h(42): note: see previous definition of 'CardH12'
+e:\femcon\femcon\PAKPExp.h(67): warning C4005: 'CardV12': macro redefinition
+  e:\femcon\femcon\PAKExp.h(43): note: see previous definition of 'CardV12'
+e:\femcon\femcon\PAKPExp.h(68): warning C4005: 'CardH12_1': macro redefinition
+  e:\femcon\femcon\PAKExp.h(45): note: see previous definition of 'CardH12_1'
+e:\femcon\femcon\PAKPExp.h(78): warning C4005: 'CardH13': macro redefinition
+  e:\femcon\femcon\PAKExp.h(105): note: see previous definition of 'CardH13'
+e:\femcon\femcon\PAKPExp.h(79): warning C4005: 'CardV13': macro redefinition
+  e:\femcon\femcon\PAKExp.h(106): note: see previous definition of 'CardV13'
+e:\femcon\femcon\PAKPExp.h(80): warning C4005: 'CardH13_1': macro redefinition
+  e:\femcon\femcon\PAKExp.h(107): note: see previous definition of 'CardH13_1'
+e:\femcon\femcon\PAKPExp.h(90): warning C4005: 'CardV14_1_a_1': macro redefinition
+  e:\femcon\femcon\PAKExp.h(177): note: see previous definition of 'CardV14_1_a_1'
+e:\femcon\femcon\PAKPExp.h(92): warning C4005: 'CardV14_1_b_1': macro redefinition
+  e:\femcon\femcon\PAKExp.h(179): note: see previous definition of 'CardV14_1_b_1'
+e:\femcon\femcon\PAKPExp.h(96): warning C4005: 'CardH15': macro redefinition
+  e:\femcon\femcon\PAKExp.h(182): note: see previous definition of 'CardH15'
+e:\femcon\femcon\PAKPExp.h(97): warning C4005: 'CardV15': macro redefinition
+  e:\femcon\femcon\PAKExp.h(183): note: see previous definition of 'CardV15'
+e:\femcon\femcon\PAKPExp.h(114): warning C4005: 'MAXIT': macro redefinition
+  e:\femcon\femcon\PAKExp.h(258): note: see previous definition of 'MAXIT'
 PAKPTExp.cpp(40): warning C4244: '=': conversion from 'INT_PTR' to 'UINT', possible loss of data
 PAKPTExp.cpp(61): warning C4244: '=': conversion from 'ULONGLONG' to 'long', possible loss of data
-PAKPTExp.cpp(314): warning C4244: '=': conversion from 'INT_PTR' to 'UINT', possible loss of data
+PAKPTExp.cpp(315): warning C4244: '=': conversion from 'INT_PTR' to 'UINT', possible loss of data
   PAKString.cpp
 PAKString.cpp(58): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
@@ -654,70 +654,70 @@ PAKString.cpp(371): warning C4267: '+=': conversion from 'size_t' to 'int', poss
 PAKString.cpp(546): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
 PAKString.cpp(585): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
   PAKTExp.cpp
-c:\femcon2017\femcon\PAKTExp.h(5): warning C4005: 'CardH3': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(5): note: see previous definition of 'CardH3'
-c:\femcon2017\femcon\PAKTExp.h(6): warning C4005: 'CardV3': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(6): note: see previous definition of 'CardV3'
-c:\femcon2017\femcon\PAKTExp.h(7): warning C4005: 'CardH4': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(7): note: see previous definition of 'CardH4'
-c:\femcon2017\femcon\PAKTExp.h(8): warning C4005: 'CardV4': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(8): note: see previous definition of 'CardV4'
-c:\femcon2017\femcon\PAKTExp.h(9): warning C4005: 'CardH5': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(9): note: see previous definition of 'CardH5'
-c:\femcon2017\femcon\PAKTExp.h(10): warning C4005: 'CardV5': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(10): note: see previous definition of 'CardV5'
-c:\femcon2017\femcon\PAKTExp.h(11): warning C4005: 'CardH6': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(11): note: see previous definition of 'CardH6'
-c:\femcon2017\femcon\PAKTExp.h(16): warning C4005: 'CardH7': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(13): note: see previous definition of 'CardH7'
-c:\femcon2017\femcon\PAKTExp.h(17): warning C4005: 'CardV7': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(14): note: see previous definition of 'CardV7'
-c:\femcon2017\femcon\PAKTExp.h(20): warning C4005: 'CardH8': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(17): note: see previous definition of 'CardH8'
-c:\femcon2017\femcon\PAKTExp.h(21): warning C4005: 'CardV8': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(18): note: see previous definition of 'CardV8'
-c:\femcon2017\femcon\PAKTExp.h(22): warning C4005: 'CardH8_2': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(21): note: see previous definition of 'CardH8_2'
-c:\femcon2017\femcon\PAKTExp.h(30): warning C4005: 'CardH8_3': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(23): note: see previous definition of 'CardH8_3'
-c:\femcon2017\femcon\PAKTExp.h(39): warning C4005: 'CardH9': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(25): note: see previous definition of 'CardH9'
-c:\femcon2017\femcon\PAKTExp.h(40): warning C4005: 'CardV9': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(26): note: see previous definition of 'CardV9'
-c:\femcon2017\femcon\PAKTExp.h(41): warning C4005: 'CardH9_1': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(27): note: see previous definition of 'CardH9_1'
-c:\femcon2017\femcon\PAKTExp.h(42): warning C4005: 'CardV9_1': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(28): note: see previous definition of 'CardV9_1'
-c:\femcon2017\femcon\PAKTExp.h(57): warning C4005: 'CardH10': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(29): note: see previous definition of 'CardH10'
-c:\femcon2017\femcon\PAKTExp.h(58): warning C4005: 'CardV10': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(30): note: see previous definition of 'CardV10'
-c:\femcon2017\femcon\PAKTExp.h(66): warning C4005: 'CardH11': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(38): note: see previous definition of 'CardH11'
-c:\femcon2017\femcon\PAKTExp.h(67): warning C4005: 'CardV11': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(39): note: see previous definition of 'CardV11'
-c:\femcon2017\femcon\PAKTExp.h(70): warning C4005: 'CardH12': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(42): note: see previous definition of 'CardH12'
-c:\femcon2017\femcon\PAKTExp.h(71): warning C4005: 'CardV12': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(43): note: see previous definition of 'CardV12'
-c:\femcon2017\femcon\PAKTExp.h(73): warning C4005: 'CardH12_1': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(45): note: see previous definition of 'CardH12_1'
-c:\femcon2017\femcon\PAKTExp.h(79): warning C4005: 'CardH12_2': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(52): note: see previous definition of 'CardH12_2'
-c:\femcon2017\femcon\PAKTExp.h(97): warning C4005: 'CardH12_5': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(60): note: see previous definition of 'CardH12_5'
-c:\femcon2017\femcon\PAKTExp.h(107): warning C4005: 'CardH12_6': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(68): note: see previous definition of 'CardH12_6'
-c:\femcon2017\femcon\PAKTExp.h(110): warning C4005: 'CardH13_2': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(112): note: see previous definition of 'CardH13_2'
-c:\femcon2017\femcon\PAKTExp.h(114): warning C4005: 'CardH13_3': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(134): note: see previous definition of 'CardH13_3'
-c:\femcon2017\femcon\PAKTExp.h(131): warning C4005: 'NULAZ': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(222): note: see previous definition of 'NULAZ'
-c:\femcon2017\femcon\PAKTExp.h(138): warning C4005: 'MAXIT': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(258): note: see previous definition of 'MAXIT'
-c:\femcon2017\femcon\PAKTExp.h(143): warning C4005: 'IREST': macro redefinition
-  c:\femcon2017\femcon\PAKExp.h(246): note: see previous definition of 'IREST'
+e:\femcon\femcon\PAKTExp.h(5): warning C4005: 'CardH3': macro redefinition
+  e:\femcon\femcon\PAKExp.h(5): note: see previous definition of 'CardH3'
+e:\femcon\femcon\PAKTExp.h(6): warning C4005: 'CardV3': macro redefinition
+  e:\femcon\femcon\PAKExp.h(6): note: see previous definition of 'CardV3'
+e:\femcon\femcon\PAKTExp.h(7): warning C4005: 'CardH4': macro redefinition
+  e:\femcon\femcon\PAKExp.h(7): note: see previous definition of 'CardH4'
+e:\femcon\femcon\PAKTExp.h(8): warning C4005: 'CardV4': macro redefinition
+  e:\femcon\femcon\PAKExp.h(8): note: see previous definition of 'CardV4'
+e:\femcon\femcon\PAKTExp.h(9): warning C4005: 'CardH5': macro redefinition
+  e:\femcon\femcon\PAKExp.h(9): note: see previous definition of 'CardH5'
+e:\femcon\femcon\PAKTExp.h(10): warning C4005: 'CardV5': macro redefinition
+  e:\femcon\femcon\PAKExp.h(10): note: see previous definition of 'CardV5'
+e:\femcon\femcon\PAKTExp.h(11): warning C4005: 'CardH6': macro redefinition
+  e:\femcon\femcon\PAKExp.h(11): note: see previous definition of 'CardH6'
+e:\femcon\femcon\PAKTExp.h(16): warning C4005: 'CardH7': macro redefinition
+  e:\femcon\femcon\PAKExp.h(13): note: see previous definition of 'CardH7'
+e:\femcon\femcon\PAKTExp.h(17): warning C4005: 'CardV7': macro redefinition
+  e:\femcon\femcon\PAKExp.h(14): note: see previous definition of 'CardV7'
+e:\femcon\femcon\PAKTExp.h(20): warning C4005: 'CardH8': macro redefinition
+  e:\femcon\femcon\PAKExp.h(17): note: see previous definition of 'CardH8'
+e:\femcon\femcon\PAKTExp.h(21): warning C4005: 'CardV8': macro redefinition
+  e:\femcon\femcon\PAKExp.h(18): note: see previous definition of 'CardV8'
+e:\femcon\femcon\PAKTExp.h(22): warning C4005: 'CardH8_2': macro redefinition
+  e:\femcon\femcon\PAKExp.h(21): note: see previous definition of 'CardH8_2'
+e:\femcon\femcon\PAKTExp.h(30): warning C4005: 'CardH8_3': macro redefinition
+  e:\femcon\femcon\PAKExp.h(23): note: see previous definition of 'CardH8_3'
+e:\femcon\femcon\PAKTExp.h(39): warning C4005: 'CardH9': macro redefinition
+  e:\femcon\femcon\PAKExp.h(25): note: see previous definition of 'CardH9'
+e:\femcon\femcon\PAKTExp.h(40): warning C4005: 'CardV9': macro redefinition
+  e:\femcon\femcon\PAKExp.h(26): note: see previous definition of 'CardV9'
+e:\femcon\femcon\PAKTExp.h(41): warning C4005: 'CardH9_1': macro redefinition
+  e:\femcon\femcon\PAKExp.h(27): note: see previous definition of 'CardH9_1'
+e:\femcon\femcon\PAKTExp.h(42): warning C4005: 'CardV9_1': macro redefinition
+  e:\femcon\femcon\PAKExp.h(28): note: see previous definition of 'CardV9_1'
+e:\femcon\femcon\PAKTExp.h(57): warning C4005: 'CardH10': macro redefinition
+  e:\femcon\femcon\PAKExp.h(29): note: see previous definition of 'CardH10'
+e:\femcon\femcon\PAKTExp.h(58): warning C4005: 'CardV10': macro redefinition
+  e:\femcon\femcon\PAKExp.h(30): note: see previous definition of 'CardV10'
+e:\femcon\femcon\PAKTExp.h(66): warning C4005: 'CardH11': macro redefinition
+  e:\femcon\femcon\PAKExp.h(38): note: see previous definition of 'CardH11'
+e:\femcon\femcon\PAKTExp.h(67): warning C4005: 'CardV11': macro redefinition
+  e:\femcon\femcon\PAKExp.h(39): note: see previous definition of 'CardV11'
+e:\femcon\femcon\PAKTExp.h(70): warning C4005: 'CardH12': macro redefinition
+  e:\femcon\femcon\PAKExp.h(42): note: see previous definition of 'CardH12'
+e:\femcon\femcon\PAKTExp.h(71): warning C4005: 'CardV12': macro redefinition
+  e:\femcon\femcon\PAKExp.h(43): note: see previous definition of 'CardV12'
+e:\femcon\femcon\PAKTExp.h(73): warning C4005: 'CardH12_1': macro redefinition
+  e:\femcon\femcon\PAKExp.h(45): note: see previous definition of 'CardH12_1'
+e:\femcon\femcon\PAKTExp.h(79): warning C4005: 'CardH12_2': macro redefinition
+  e:\femcon\femcon\PAKExp.h(52): note: see previous definition of 'CardH12_2'
+e:\femcon\femcon\PAKTExp.h(97): warning C4005: 'CardH12_5': macro redefinition
+  e:\femcon\femcon\PAKExp.h(60): note: see previous definition of 'CardH12_5'
+e:\femcon\femcon\PAKTExp.h(107): warning C4005: 'CardH12_6': macro redefinition
+  e:\femcon\femcon\PAKExp.h(68): note: see previous definition of 'CardH12_6'
+e:\femcon\femcon\PAKTExp.h(110): warning C4005: 'CardH13_2': macro redefinition
+  e:\femcon\femcon\PAKExp.h(112): note: see previous definition of 'CardH13_2'
+e:\femcon\femcon\PAKTExp.h(114): warning C4005: 'CardH13_3': macro redefinition
+  e:\femcon\femcon\PAKExp.h(134): note: see previous definition of 'CardH13_3'
+e:\femcon\femcon\PAKTExp.h(131): warning C4005: 'NULAZ': macro redefinition
+  e:\femcon\femcon\PAKExp.h(222): note: see previous definition of 'NULAZ'
+e:\femcon\femcon\PAKTExp.h(138): warning C4005: 'MAXIT': macro redefinition
+  e:\femcon\femcon\PAKExp.h(258): note: see previous definition of 'MAXIT'
+e:\femcon\femcon\PAKTExp.h(143): warning C4005: 'IREST': macro redefinition
+  e:\femcon\femcon\PAKExp.h(246): note: see previous definition of 'IREST'
 PAKTExp.cpp(37): warning C4244: '=': conversion from 'INT_PTR' to 'UINT', possible loss of data
 PAKTExp.cpp(52): warning C4244: '=': conversion from 'ULONGLONG' to 'long', possible loss of data
 PAKTExp.cpp(75): warning C4018: '<=': signed/unsigned mismatch
@@ -811,8 +811,10 @@ UNVImp.cpp(327): warning C4996: 'sscanf': This function or variable may be unsaf
 UNVImp.cpp(358): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
   Generating code
-c:\femcon2017\femcon\pakoptvalues.cpp(131): warning C4715: 'CPakOptValues::GetMaterialModel': not all control paths return a value
-  All 1053 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+e:\femcon\femcon\pakoptvalues.cpp(131): warning C4715: 'CPakOptValues::GetMaterialModel': not all control paths return a value
+  1042 of 1053 functions (99.0%) were compiled, the rest were copied from previous compilation.
+    50 functions were new in current compilation
+    2 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
-  FemCon.vcxproj -> C:\FemCon2017\x64\Release\FemCon.exe
-  FemCon.vcxproj -> C:\FemCon2017\x64\Release\FemCon.pdb (Full PDB)
+  FemCon.vcxproj -> E:\FemCon\x64\Release\FemCon.exe
+  FemCon.vcxproj -> E:\FemCon\x64\Release\FemCon.pdb (Full PDB)

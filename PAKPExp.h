@@ -3,7 +3,7 @@
 #define CardH2 "C /2/ FORMAT FOR INPUT DATA (free format)\n"
 #define CardV2 "C INDFOR\n"
 #define CardH3 "C /3/ BASIC DATA FOR THE PROBLEM (10I5)\n"
-#define CardV3 "C NP,               NPER,NPRINT,NSTAC,IVDP\n"
+#define CardV3 "C NP,               NPER,NPRINT,NSTAC,IVDP,ISNUMBER\n"
 #define CardH4 "C /4/ BASIC DATA FOR THE PROBLEM (4I5,2F10.0,I5)\n"
 #define CardV4 "C              MAXIT,EPSTA,EPSTR,NJRAP\n"
 #define CardH5 "C /5/ DATA FOR RESTART (3I5,D15.8)\n"
@@ -106,6 +106,7 @@
 #define NPER		1
 #define NPRINT		0
 #define IVDP		0
+#define ISNUMBER    1
 //Card /4/
 #define INTEB		1
 #define INDSC		0
@@ -181,7 +182,7 @@
 #define NO_LOADS		"There are no loads."
 
 //Maximalni broj funkcija
-#define MAX_TF		100
+#define MAX_TF		1000
 
 //Tolerancije
 #define LOAD_FORCE_TOL		1.e-8

@@ -2848,8 +2848,8 @@ Ovo je druga kartica: samo cvorovi po datom redosledu dole
 						
 						UINT nfun;
 						nfun=(sl.m_uSl_funcID ? sl.m_uSl_funcID : 1);
-						p_str.Format("%5u%5u%5u%10.4.1e%10.4.1e%10.4.1e%5u\n",uITIPE,nfun,IPRAV,
-							sl.m_dValue[0],sl.m_dValue[0],pr.m_dValue[0],KORC);
+						p_str.Format("%5u%5u%5u%10.4.1e%10.4.1e%10.4.1e%5u%10u\n",uITIPE,nfun,IPRAV,
+							sl.m_dValue[0], sl.m_dValue[0], pr.m_dValue[0], KORC,el.m_uID);
 						file->WriteString(p_str);
 						for(k=0;k<(UINT)((el.m_uTopology==FETO_QUAD4 || el.m_uTopology==FETO_TRI3)? 2:3);k++)
 						{
@@ -2891,8 +2891,8 @@ Ovo je druga kartica: samo cvorovi po datom redosledu dole
 						{
 						case FETO_BRICK8: case FETO_BRICK20:
 						{
-							p_str.Format("%5u%5u%10.4.1e%10.4.1e%10.4.1e%10.4.1e%5u\n",nfun,IPRAV,
-						 		sl.m_dValue[0],sl.m_dValue[0],sl.m_dValue[0],sl.m_dValue[0],KORC);
+							p_str.Format("%5u%5u%10.4.1e%10.4.1e%10.4.1e%10.4.1e%5u%10u\n",nfun,IPRAV,
+						 		sl.m_dValue[0],sl.m_dValue[0],sl.m_dValue[0],sl.m_dValue[0],KORC,el.m_uID);
 							file->WriteString(p_str);
 							for(k=0;k<(UINT)(el.m_uTopology==FETO_BRICK8 ? 4:8);k++)
 							{
@@ -2912,8 +2912,8 @@ Ovo je druga kartica: samo cvorovi po datom redosledu dole
 						case FETO_TETRA4: case FETO_TETRA10:
 						{
 							//int IPRAV1=sl.m_dDirection[1]+1;
-							p_str.Format("%5u%5u%10.4.1e%10.4.1e%10.4.1e%10.4.1e%5u\n",nfun,IPRAV,
-						 		sl.m_dValue[0],sl.m_dValue[0],sl.m_dValue[0],sl.m_dValue[0],KORC);
+							p_str.Format("%5u%5u%10.4.1e%10.4.1e%10.4.1e%10.4.1e%5u%10u\n",nfun,IPRAV,
+						 		sl.m_dValue[0],sl.m_dValue[0],sl.m_dValue[0],sl.m_dValue[0],KORC,el.m_uID);
 							file->WriteString(p_str);
 							for(k=0;k<(UINT)(el.m_uTopology==FETO_TETRA4 ? 4:8);k++)
 							{
@@ -2933,8 +2933,8 @@ Ovo je druga kartica: samo cvorovi po datom redosledu dole
 						case FETO_QUAD4: case FETO_QUAD8: case FETO_TRI3: case FETO_TRI6:
 							if(j<2)
 							{
-								p_str.Format("%5u%5u%10.4.1e%10.4.1e%10.4.1e%10.4.1e%5u\n",nfun,IPRAV,
-							 		sl.m_dValue[0],sl.m_dValue[0],sl.m_dValue[0],sl.m_dValue[0],KORC);
+								p_str.Format("%5u%5u%10.4.1e%10.4.1e%10.4.1e%10.4.1e%5u%10u\n",nfun,IPRAV,
+							 		sl.m_dValue[0],sl.m_dValue[0],sl.m_dValue[0],sl.m_dValue[0],KORC,el.m_uID);
 								file->WriteString(p_str);
 								for(k=0;k<(UINT)((el.m_uTopology==FETO_QUAD4 || el.m_uTopology==FETO_TRI3)? 4:8);k++)
 								{
